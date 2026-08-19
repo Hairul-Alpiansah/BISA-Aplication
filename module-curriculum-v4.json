@@ -1,0 +1,3247 @@
+{
+  "SMP": {
+    "VII": {
+      "IPA": [
+        {
+          "title": "Hakikat IPA dan Metode Ilmiah",
+          "desc": "Mengenal IPA sebagai cara memahami alam melalui pengamatan, pengukuran, percobaan, dan penarikan kesimpulan berdasarkan bukti.",
+          "topics": [
+            {
+              "title": "Apa itu Ilmu Pengetahuan Alam?",
+              "body": "IPA adalah ilmu yang mempelajari gejala alam dan segala sesuatu yang ada di dalamnya, mulai dari makhluk hidup, materi, energi, Bumi, hingga benda langit. IPA bukan sekadar kumpulan fakta, tetapi juga cara berpikir secara logis dan sistematis. Cabang IPA antara lain Biologi (makhluk hidup), Fisika (materi, gerak, gaya, energi), Kimia (zat dan perubahannya), Ilmu Bumi , dan Astronomi ."
+            },
+            {
+              "title": "Langkah metode ilmiah",
+              "body": "Metode ilmiah membantu kita menjawab pertanyaan dengan bukti. Urutannya: pengamatan → merumuskan masalah → membuat hipotesis → merancang eksperimen → mengumpulkan data → menganalisis → menyimpulkan . Contoh: “Apakah cahaya memengaruhi pertumbuhan tanaman?” Hipotesis harus diuji melalui percobaan, bukan hanya dipercaya."
+            },
+            {
+              "title": "Variabel percobaan",
+              "body": "Variabel bebas: faktor yang sengaja diubah. Variabel terikat: hasil yang diamati. Variabel kontrol: faktor lain yang dibuat sama agar percobaan adil."
+            },
+            {
+              "title": "Besaran, satuan, dan pengukuran",
+              "body": "Besaran adalah sesuatu yang dapat diukur dan memiliki nilai serta satuan. Contoh: panjang (meter), massa (kilogram), waktu (sekon), dan suhu (kelvin). Alat ukur yang digunakan harus sesuai, misalnya penggaris untuk panjang, neraca untuk massa, stopwatch untuk waktu, dan termometer untuk suhu."
+            },
+            {
+              "title": "Keselamatan laboratorium",
+              "body": "Gunakan alat sesuai fungsi, baca label bahan, jangan mencicipi bahan kimia, gunakan perlengkapan keselamatan bila diperlukan, jangan bercanda saat praktikum, dan segera laporkan kejadian yang tidak aman kepada guru."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Dalam percobaan pengaruh cahaya terhadap pertumbuhan tanaman, tinggi tanaman termasuk ...",
+              "options": [
+                "variabel bebas",
+                "variabel terikat",
+                "variabel kontrol",
+                "satuan pokok"
+              ],
+              "answer": 1,
+              "explanation": "Tinggi tanaman adalah hasil yang diukur, sehingga menjadi variabel terikat."
+            }
+          ]
+        },
+        {
+          "title": "Zat dan Perubahannya",
+          "desc": "Memahami materi, susunan partikel, perubahan wujud, unsur, senyawa, campuran, serta perubahan fisika dan kimia.",
+          "topics": [
+            {
+              "title": "Materi dan partikel",
+              "body": "Materi adalah segala sesuatu yang mempunyai massa dan menempati ruang. Materi tersusun dari partikel yang sangat kecil. Perbedaan susunan dan gerak partikel menyebabkan sifat zat padat, cair, dan gas berbeda."
+            },
+            {
+              "title": "Padat, cair, dan gas",
+              "body": "Padat: bentuk dan volume tetap; partikel rapat. Cair: volume tetap, bentuk mengikuti wadah; partikel dapat bergeser. Gas: bentuk dan volume mengikuti ruang; partikel berjauhan dan bergerak bebas."
+            },
+            {
+              "title": "Perubahan wujud",
+              "body": "Perubahan wujud meliputi mencair (padat→cair), membeku (cair→padat), menguap (cair→gas), mengembun (gas→cair), menyublim (padat→gas), dan mengkristal/deposisi (gas→padat). Perubahan wujud termasuk perubahan fisika karena tidak menghasilkan zat baru."
+            },
+            {
+              "title": "Unsur, senyawa, dan campuran",
+              "body": "Unsur tersusun dari satu jenis atom, misalnya besi dan oksigen. Senyawa tersusun dari dua atau lebih unsur yang berikatan kimia, misalnya H₂O. Campuran adalah gabungan beberapa zat tanpa membentuk zat baru. Campuran homogen tampak seragam, sedangkan campuran heterogen tidak seragam."
+            },
+            {
+              "title": "Perubahan fisika dan kimia",
+              "body": "Perubahan fisika tidak menghasilkan zat baru, misalnya es mencair. Perubahan kimia menghasilkan zat baru, misalnya besi berkarat dan kayu terbakar. Tanda reaksi kimia dapat berupa perubahan warna, terbentuk gas/endapan, perubahan suhu, atau muncul bau tertentu."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Peristiwa yang menghasilkan zat baru adalah ...",
+              "options": [
+                "es mencair",
+                "air membeku",
+                "besi berkarat",
+                "gula larut"
+              ],
+              "answer": 2,
+              "explanation": "Besi berkarat menghasilkan senyawa baru, sehingga termasuk perubahan kimia."
+            }
+          ]
+        },
+        {
+          "title": "Suhu, Kalor, dan Pemuaian",
+          "desc": "Mempelajari suhu, kalor, perpindahan panas, perubahan suhu dan wujud, serta pemuaian benda.",
+          "topics": [
+            {
+              "title": "Suhu dan termometer",
+              "body": "Suhu menyatakan tingkat panas atau dingin suatu benda. Suhu diukur menggunakan termometer. Skala yang sering dijumpai antara lain Celsius, Fahrenheit, dan Kelvin."
+            },
+            {
+              "title": "Kalor sebagai energi",
+              "body": "Kalor adalah energi yang berpindah karena perbedaan suhu. Kalor mengalir secara spontan dari benda bersuhu lebih tinggi menuju benda bersuhu lebih rendah sampai tercapai keseimbangan termal."
+            },
+            {
+              "title": "Pengaruh kalor",
+              "body": "Kalor dapat menaikkan atau menurunkan suhu, mengubah wujud zat, dan menyebabkan pemuaian. Banyaknya kalor yang diperlukan dipengaruhi massa, jenis bahan, dan besar perubahan suhu."
+            },
+            {
+              "title": "Konduksi, konveksi, radiasi",
+              "body": "Konduksi: perpindahan kalor tanpa perpindahan zat secara keseluruhan, umum pada padatan. Konveksi: perpindahan kalor bersama aliran fluida. Radiasi: perpindahan energi melalui gelombang elektromagnetik dan tidak memerlukan medium."
+            },
+            {
+              "title": "Pemuaian",
+              "body": "Ketika dipanaskan, banyak bahan memuai. Celah sambungan rel atau jembatan dibuat untuk memberi ruang bagi perubahan panjang akibat perubahan suhu."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Panas Matahari sampai ke Bumi terutama melalui ...",
+              "options": [
+                "konduksi",
+                "konveksi",
+                "radiasi",
+                "pemuaian"
+              ],
+              "answer": 2,
+              "explanation": "Ruang antara Matahari dan Bumi hampir hampa, sehingga perpindahan panas berlangsung melalui radiasi."
+            }
+          ]
+        },
+        {
+          "title": "Gerak, Gaya, dan Energi",
+          "desc": "Mempelajari perubahan posisi, jarak, kelajuan, gaya, serta berbagai bentuk dan perubahan energi.",
+          "topics": [
+            {
+              "title": "Gerak dan titik acuan",
+              "body": "Benda dikatakan bergerak apabila posisinya berubah terhadap titik acuan. Karena bergantung pada acuan, gerak bersifat relatif."
+            },
+            {
+              "title": "Jarak, waktu, dan kelajuan",
+              "body": "Kelajuan menunjukkan jarak yang ditempuh tiap satuan waktu. v = s / t Jika sepeda menempuh 100 m dalam 20 s, kelajuannya 5 m/s."
+            },
+            {
+              "title": "Gaya",
+              "body": "Gaya adalah tarikan atau dorongan. Gaya dapat membuat benda bergerak, berhenti, berubah arah, berubah kecepatan, atau berubah bentuk. Satuan SI gaya adalah newton (N)."
+            },
+            {
+              "title": "Jenis gaya",
+              "body": "Contoh gaya antara lain gaya gravitasi, gesek, pegas, magnet, listrik, dan gaya otot. Gaya gesek dapat menguntungkan, misalnya membantu ban mencengkeram jalan, tetapi juga dapat menyebabkan keausan."
+            },
+            {
+              "title": "Energi dan perubahannya",
+              "body": "Energi adalah kemampuan untuk melakukan usaha atau menyebabkan perubahan. Bentuk energi antara lain kinetik, potensial, kimia, listrik, panas, cahaya, dan bunyi. Energi dapat berubah dari satu bentuk ke bentuk lain."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Sepeda menempuh 150 m dalam 30 s. Kelajuannya adalah ...",
+              "options": [
+                "3 m/s",
+                "5 m/s",
+                "10 m/s",
+                "180 m/s"
+              ],
+              "answer": 1,
+              "explanation": "v = 150 ÷ 30 = 5 m/s."
+            }
+          ]
+        },
+        {
+          "title": "Makhluk Hidup dan Lingkungannya",
+          "desc": "Mempelajari ciri makhluk hidup, klasifikasi, ekosistem, rantai makanan, dan pencemaran lingkungan.",
+          "topics": [
+            {
+              "title": "Ciri makhluk hidup",
+              "body": "Makhluk hidup bernapas, membutuhkan nutrisi, bergerak, tumbuh dan berkembang, berkembang biak, peka terhadap rangsangan, melakukan ekskresi, dan mampu menyesuaikan diri terhadap lingkungan."
+            },
+            {
+              "title": "Klasifikasi",
+              "body": "Klasifikasi mengelompokkan makhluk hidup berdasarkan persamaan dan perbedaan ciri. Urutan kelompok dari besar ke kecil: kingdom, filum/divisio, kelas, ordo, famili, genus, spesies."
+            },
+            {
+              "title": "Ekosistem",
+              "body": "Ekosistem adalah hubungan timbal balik antara komponen biotik dan abiotik . Biotik meliputi makhluk hidup; abiotik meliputi cahaya, air, udara, tanah, suhu, dan mineral."
+            },
+            {
+              "title": "Rantai dan jaring makanan",
+              "body": "Produsen membuat makanan sendiri, konsumen memperoleh energi dengan memakan organisme lain, dan pengurai mengembalikan materi ke lingkungan. Beberapa rantai makanan yang saling berhubungan membentuk jaring-jaring makanan."
+            },
+            {
+              "title": "Pencemaran dan 3R",
+              "body": "Pencemaran dapat terjadi pada air, udara, dan tanah. Upaya sederhana yang dapat dilakukan adalah Reduce, Reuse, Recycle serta membuang limbah sesuai aturan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Pada rantai rumput → belalang → katak → ular, produsen adalah ...",
+              "options": [
+                "rumput",
+                "belalang",
+                "katak",
+                "ular"
+              ],
+              "answer": 0,
+              "explanation": "Rumput membuat makanan sendiri melalui fotosintesis sehingga berperan sebagai produsen."
+            }
+          ]
+        }
+      ]
+    },
+    "VIII": {
+      "IPA": [
+        {
+          "title": "Sel, Jaringan, Organ, dan Sistem Organ",
+          "desc": "Memahami sel sebagai unit dasar kehidupan dan tingkatan organisasi dari sel hingga organisme.",
+          "topics": [
+            {
+              "title": "Sel sebagai unit kehidupan",
+              "body": "Sel adalah unit struktural dan fungsional terkecil makhluk hidup. Organisme uniseluler terdiri atas satu sel, sedangkan organisme multiseluler tersusun atas banyak sel yang memiliki pembagian tugas."
+            },
+            {
+              "title": "Bagian umum sel",
+              "body": "Membran sel mengatur pertukaran zat, sitoplasma menjadi tempat banyak reaksi, inti menyimpan materi genetik, dan mitokondria berperan dalam respirasi seluler."
+            },
+            {
+              "title": "Sel tumbuhan dan hewan",
+              "body": "Sel tumbuhan memiliki dinding sel, kloroplas, dan umumnya vakuola besar. Sel hewan tidak memiliki dinding sel dan kloroplas. Keduanya mempunyai membran sel, sitoplasma, inti, dan banyak organel lain."
+            },
+            {
+              "title": "Organisasi kehidupan",
+              "body": "Tingkatan organisasi: sel → jaringan → organ → sistem organ → organisme . Contoh: sel otot membentuk jaringan otot, jaringan menjadi bagian jantung, dan jantung bekerja dalam sistem peredaran darah."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Organel tumbuhan yang berperan dalam fotosintesis adalah ...",
+              "options": [
+                "mitokondria",
+                "kloroplas",
+                "inti",
+                "membran sel"
+              ],
+              "answer": 1,
+              "explanation": "Kloroplas mengandung klorofil dan merupakan tempat utama fotosintesis pada sel tumbuhan."
+            }
+          ]
+        },
+        {
+          "title": "Sistem Tubuh Manusia",
+          "desc": "Mempelajari sistem pencernaan, pernapasan, peredaran darah, ekskresi, dan kebutuhan zat gizi manusia.",
+          "topics": [
+            {
+              "title": "Sistem pencernaan",
+              "body": "Saluran pencernaan utama: mulut → kerongkongan → lambung → usus halus → usus besar → rektum → anus. Pencernaan mekanik memperkecil ukuran makanan, sedangkan pencernaan kimiawi melibatkan enzim."
+            },
+            {
+              "title": "Zat gizi",
+              "body": "Tubuh memerlukan karbohidrat, protein, lemak, vitamin, mineral, dan air. Kebutuhan setiap orang berbeda sesuai usia, aktivitas, dan kondisi tubuh."
+            },
+            {
+              "title": "Sistem pernapasan",
+              "body": "Udara melewati hidung, faring, laring, trakea, bronkus, bronkiolus, lalu mencapai alveolus. Di alveolus terjadi pertukaran oksigen dan karbon dioksida dengan darah."
+            },
+            {
+              "title": "Peredaran darah",
+              "body": "Jantung memompa darah melalui arteri, vena, dan kapiler. Sel darah merah terutama mengangkut oksigen, sel darah putih berperan dalam pertahanan, dan keping darah membantu pembekuan."
+            },
+            {
+              "title": "Sistem ekskresi",
+              "body": "Ginjal membentuk urine, kulit mengeluarkan keringat, paru-paru mengeluarkan karbon dioksida serta uap air, dan hati berperan dalam berbagai proses detoksifikasi dan metabolisme."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Tempat utama pertukaran oksigen dan karbon dioksida di paru-paru adalah ...",
+              "options": [
+                "trakea",
+                "bronkus",
+                "alveolus",
+                "laring"
+              ],
+              "answer": 2,
+              "explanation": "Alveolus memiliki dinding tipis dan berdekatan dengan kapiler sehingga cocok untuk pertukaran gas."
+            }
+          ]
+        },
+        {
+          "title": "Usaha, Energi, dan Pesawat Sederhana",
+          "desc": "Memahami konsep usaha, energi kinetik dan potensial, hukum kekekalan energi, serta alat yang mempermudah pekerjaan.",
+          "topics": [
+            {
+              "title": "Usaha dalam fisika",
+              "body": "Usaha terjadi ketika gaya menyebabkan perpindahan. W = F × s Satuan usaha adalah joule (J). Jika gaya 10 N memindahkan benda 3 m searah gaya, usaha yang dilakukan adalah 30 J."
+            },
+            {
+              "title": "Energi kinetik dan potensial",
+              "body": "Energi kinetik dimiliki benda karena bergerak, sedangkan energi potensial berkaitan dengan posisi atau keadaan benda. Makin cepat benda bergerak, makin besar energi kinetiknya."
+            },
+            {
+              "title": "Kekekalan energi",
+              "body": "Energi tidak diciptakan atau dimusnahkan, tetapi dapat berubah bentuk. Pada PLTA, energi potensial air berubah menjadi energi gerak dan akhirnya menjadi energi listrik."
+            },
+            {
+              "title": "Pesawat sederhana",
+              "body": "Pesawat sederhana meliputi pengungkit, katrol, bidang miring, serta roda dan poros. Alat ini membantu dengan mengubah besar atau arah gaya, walaupun tidak “menciptakan” energi."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Gaya 20 N memindahkan benda sejauh 4 m searah gaya. Usaha yang dilakukan ...",
+              "options": [
+                "5 J",
+                "24 J",
+                "80 J",
+                "100 J"
+              ],
+              "answer": 2,
+              "explanation": "W = F × s = 20 × 4 = 80 joule."
+            }
+          ]
+        },
+        {
+          "title": "Getaran, Gelombang, Bunyi, dan Cahaya",
+          "desc": "Mempelajari getaran, frekuensi, periode, gelombang, bunyi, cahaya, pemantulan, dan pembiasan.",
+          "topics": [
+            {
+              "title": "Getaran, frekuensi, periode",
+              "body": "Getaran adalah gerak bolak-balik melalui titik keseimbangan. Frekuensi adalah jumlah getaran tiap sekon dan bersatuan hertz (Hz). f = n/t &nbsp;&nbsp; dan &nbsp;&nbsp; T = 1/f"
+            },
+            {
+              "title": "Gelombang",
+              "body": "Gelombang adalah getaran yang merambat. Pada gelombang transversal, arah getaran tegak lurus arah rambat; pada longitudinal, arah getaran sejajar arah rambat."
+            },
+            {
+              "title": "Bunyi",
+              "body": "Bunyi berasal dari benda bergetar dan memerlukan medium untuk merambat. Bunyi tidak merambat di ruang hampa. Frekuensi memengaruhi tinggi-rendah nada."
+            },
+            {
+              "title": "Cahaya",
+              "body": "Cahaya dapat merambat lurus, dipantulkan, dibiaskan, dan diuraikan. Pemantulan memungkinkan kita melihat bayangan di cermin, sedangkan pembiasan terjadi ketika cahaya melewati medium berbeda."
+            },
+            {
+              "title": "Mata",
+              "body": "Cahaya masuk melalui kornea dan pupil, dibiaskan oleh lensa, lalu membentuk bayangan pada retina. Sinyal diteruskan melalui saraf optik menuju otak."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jika frekuensi getaran 5 Hz, periodenya adalah ...",
+              "options": [
+                "0,2 s",
+                "2 s",
+                "5 s",
+                "25 s"
+              ],
+              "answer": 0,
+              "explanation": "T = 1/f = 1/5 = 0,2 sekon."
+            }
+          ]
+        },
+        {
+          "title": "Tekanan, Fluida, dan Penerapannya",
+          "desc": "Memahami tekanan pada padat, cair, gas, Hukum Pascal, serta gaya apung menurut Archimedes.",
+          "topics": [
+            {
+              "title": "Tekanan zat padat",
+              "body": "Tekanan adalah gaya per satuan luas. P = F/A Untuk gaya sama, semakin kecil luas bidang sentuh maka semakin besar tekanannya."
+            },
+            {
+              "title": "Tekanan hidrostatis",
+              "body": "Tekanan dalam zat cair bertambah ketika kedalaman bertambah. Karena itu bagian bawah bendungan dibuat lebih tebal daripada bagian atas."
+            },
+            {
+              "title": "Hukum Pascal",
+              "body": "Tekanan yang diberikan pada fluida dalam ruang tertutup diteruskan ke segala arah. Prinsip ini digunakan pada dongkrak dan rem hidrolik."
+            },
+            {
+              "title": "Hukum Archimedes",
+              "body": "Benda yang berada dalam fluida mendapat gaya ke atas. Besarnya gaya apung berkaitan dengan berat fluida yang dipindahkan. Hal ini menjelaskan mengapa benda dapat terapung, melayang, atau tenggelam."
+            },
+            {
+              "title": "Tekanan udara",
+              "body": "Udara memiliki massa sehingga memberikan tekanan. Tekanan udara umumnya berkurang ketika ketinggian bertambah."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jika gaya tetap tetapi luas bidang tekan diperkecil, tekanan akan ...",
+              "options": [
+                "mengecil",
+                "tetap",
+                "membesar",
+                "menjadi nol"
+              ],
+              "answer": 2,
+              "explanation": "P = F/A. Jika F tetap dan A diperkecil, nilai P membesar."
+            }
+          ]
+        }
+      ]
+    },
+    "IX": {
+      "IPA": [
+        {
+          "title": "Pertumbuhan, Perkembangan, dan Sistem Reproduksi",
+          "desc": "Mempelajari pertumbuhan, perkembangan, faktor yang memengaruhi, serta reproduksi tumbuhan dan manusia secara ilmiah.",
+          "topics": [
+            {
+              "title": "Pertumbuhan dan perkembangan",
+              "body": "Pertumbuhan adalah perubahan ukuran yang dapat diukur, misalnya tinggi dan massa. Perkembangan adalah perubahan menuju kematangan struktur dan fungsi."
+            },
+            {
+              "title": "Faktor yang memengaruhi",
+              "body": "Faktor internal meliputi gen dan hormon. Faktor eksternal antara lain nutrisi, air, suhu, cahaya, dan kondisi lingkungan."
+            },
+            {
+              "title": "Reproduksi tumbuhan",
+              "body": "Reproduksi vegetatif tidak melibatkan peleburan sel kelamin, misalnya tunas, umbi, stek, dan cangkok. Reproduksi generatif melibatkan penyerbukan dan pembuahan."
+            },
+            {
+              "title": "Penyerbukan",
+              "body": "Penyerbukan adalah berpindahnya serbuk sari ke kepala putik. Proses ini dapat dibantu angin, air, atau hewan. Setelah pembuahan, bakal biji berkembang menjadi biji."
+            },
+            {
+              "title": "Pubertas dan sistem reproduksi manusia",
+              "body": "Pubertas adalah masa pematangan fungsi reproduksi yang dipengaruhi hormon. Perubahan dapat meliputi pertumbuhan cepat, perubahan suara, dan perubahan fungsi organ reproduksi. Kecepatan dan waktu pubertas dapat berbeda pada setiap orang."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Perubahan yang dapat diukur dengan angka, seperti tinggi badan bertambah, disebut ...",
+              "options": [
+                "perkembangan",
+                "pertumbuhan",
+                "adaptasi",
+                "reproduksi"
+              ],
+              "answer": 1,
+              "explanation": "Pertumbuhan bersifat kuantitatif sehingga dapat diukur, misalnya dalam cm atau kg."
+            }
+          ]
+        },
+        {
+          "title": "Pewarisan Sifat dan Bioteknologi",
+          "desc": "Memahami DNA, gen, kromosom, pewarisan sifat sederhana, serta pemanfaatan organisme dalam bioteknologi.",
+          "topics": [
+            {
+              "title": "Materi genetik",
+              "body": "DNA membawa informasi genetik. Bagian DNA yang berfungsi sebagai unit informasi disebut gen. DNA dikemas bersama protein membentuk kromosom di dalam sel."
+            },
+            {
+              "title": "Pewarisan sifat",
+              "body": "Keturunan menerima materi genetik dari orang tua. Beberapa ciri dapat dipelajari dengan model alel dominan dan resesif, tetapi banyak sifat nyata dipengaruhi banyak gen dan lingkungan."
+            },
+            {
+              "title": "Model persilangan sederhana",
+              "body": "Kotak Punnett membantu memperkirakan kombinasi alel pada keturunan. Hasil kotak Punnett menunjukkan peluang, bukan jaminan hasil pada setiap anak."
+            },
+            {
+              "title": "Bioteknologi konvensional",
+              "body": "Bioteknologi konvensional memanfaatkan proses biologis, terutama fermentasi. Contohnya pembuatan tempe, tape, yoghurt, dan produk pangan fermentasi lain."
+            },
+            {
+              "title": "Bioteknologi modern",
+              "body": "Bioteknologi modern menggunakan teknik lebih maju seperti kultur jaringan dan rekayasa genetika. Penerapannya dapat ditemukan dalam pertanian, kesehatan, pangan, dan pengelolaan lingkungan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Bagian DNA yang membawa informasi untuk suatu karakter disebut ...",
+              "options": [
+                "gen",
+                "jaringan",
+                "organ",
+                "enzim"
+              ],
+              "answer": 0,
+              "explanation": "Gen merupakan bagian dari DNA yang membawa informasi biologis tertentu."
+            }
+          ]
+        },
+        {
+          "title": "Listrik dan Kemagnetan",
+          "desc": "Mempelajari muatan listrik, arus, tegangan, hambatan, rangkaian, daya, magnet, medan magnet, dan elektromagnet.",
+          "topics": [
+            {
+              "title": "Muatan dan listrik statis",
+              "body": "Muatan listrik terdiri atas positif dan negatif. Muatan sejenis tolak-menolak, sedangkan muatan berbeda jenis tarik-menarik. Listrik statis dapat diamati ketika benda yang digosok menarik potongan kertas kecil."
+            },
+            {
+              "title": "Arus, tegangan, hambatan",
+              "body": "Arus listrik adalah aliran muatan. Tegangan adalah beda potensial, dan hambatan menyatakan hambatan terhadap aliran arus. V = I × R"
+            },
+            {
+              "title": "Rangkaian seri dan paralel",
+              "body": "Pada rangkaian seri, komponen berada dalam satu jalur. Pada rangkaian paralel terdapat beberapa cabang. Instalasi rumah umumnya menggunakan susunan paralel agar peralatan dapat bekerja relatif independen."
+            },
+            {
+              "title": "Daya listrik",
+              "body": "Daya adalah laju penggunaan energi listrik. P = V × I Satuan daya adalah watt (W)."
+            },
+            {
+              "title": "Magnet dan elektromagnet",
+              "body": "Magnet memiliki kutub utara dan selatan. Arus listrik dapat menghasilkan medan magnet. Prinsip ini digunakan pada elektromagnet, motor listrik, relai, dan berbagai perangkat."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jika V = 12 V dan R = 4 Ω, kuat arusnya ...",
+              "options": [
+                "2 A",
+                "3 A",
+                "4 A",
+                "48 A"
+              ],
+              "answer": 1,
+              "explanation": "I = V/R = 12/4 = 3 ampere."
+            }
+          ]
+        },
+        {
+          "title": "Reaksi Kimia, Asam, Basa, dan Lingkungan",
+          "desc": "Memahami reaksi kimia, asam-basa dan pH, indikator, pencemaran, efek rumah kaca, serta upaya menjaga lingkungan.",
+          "topics": [
+            {
+              "title": "Reaksi kimia",
+              "body": "Reaksi kimia mengubah reaktan menjadi produk. Tanda yang mungkin tampak antara lain terbentuk gas, endapan, perubahan warna, perubahan suhu, cahaya, atau bau."
+            },
+            {
+              "title": "Asam, basa, dan pH",
+              "body": "Skala pH digunakan untuk menggambarkan keasaman atau kebasaan larutan. Secara umum, pH 7 bersifat basa."
+            },
+            {
+              "title": "Indikator",
+              "body": "Indikator digunakan untuk membantu mengenali sifat asam atau basa, misalnya kertas lakmus, indikator universal, serta beberapa bahan alami yang warnanya berubah pada kondisi berbeda."
+            },
+            {
+              "title": "Pencemaran",
+              "body": "Pencemaran air, udara, dan tanah terjadi ketika zat atau energi masuk ke lingkungan hingga kualitasnya menurun. Pencegahan memerlukan pengurangan sumber polusi dan pengelolaan limbah yang tepat."
+            },
+            {
+              "title": "Efek rumah kaca dan pemanasan global",
+              "body": "Gas rumah kaca membantu menjaga Bumi tetap hangat. Jika konsentrasinya meningkat, lebih banyak panas tertahan. Penghematan energi, perlindungan hutan, pengurangan limbah, dan energi lebih bersih dapat membantu menekan emisi."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Larutan dengan pH 3 termasuk ...",
+              "options": [
+                "asam",
+                "netral",
+                "basa",
+                "selalu berbahaya"
+              ],
+              "answer": 0,
+              "explanation": "Pada skala pH sederhana, nilai di bawah 7 dikategorikan asam."
+            }
+          ]
+        },
+        {
+          "title": "Bumi, Tata Surya, dan Teknologi Ramah Lingkungan",
+          "desc": "Mempelajari struktur Bumi, lempeng tektonik, gempa, tata surya, gerak Bumi dan Bulan, energi terbarukan, dan teknologi ramah lingkungan.",
+          "topics": [
+            {
+              "title": "Struktur Bumi",
+              "body": "Secara umum Bumi tersusun atas kerak, mantel, inti luar, dan inti dalam. Kondisi suhu, tekanan, dan komposisi berubah dengan kedalaman."
+            },
+            {
+              "title": "Lempeng tektonik dan gempa",
+              "body": "Bagian luar Bumi terbagi menjadi lempeng yang bergerak sangat lambat. Interaksi lempeng berhubungan dengan pembentukan pegunungan, aktivitas gunung api, dan banyak gempa tektonik."
+            },
+            {
+              "title": "Tata surya",
+              "body": "Tata Surya terdiri atas Matahari dan benda yang bergerak dalam pengaruh gravitasinya. Delapan planet utama: Merkurius, Venus, Bumi, Mars, Jupiter, Saturnus, Uranus, dan Neptunus."
+            },
+            {
+              "title": "Rotasi, revolusi, Bulan, dan gerhana",
+              "body": "Rotasi Bumi menyebabkan pergantian siang-malam. Revolusi Bumi bersama kemiringan sumbu berkaitan dengan musim. Bulan mengelilingi Bumi dan menampilkan fase-fase. Gerhana terjadi ketika Matahari, Bumi, dan Bulan berada pada susunan tertentu."
+            },
+            {
+              "title": "Energi dan teknologi ramah lingkungan",
+              "body": "Energi terbarukan mencakup energi surya, angin, air, dan panas bumi. Teknologi ramah lingkungan berusaha memenuhi kebutuhan manusia dengan mengurangi penggunaan sumber daya dan dampak pencemaran."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Planet yang berada paling dekat dengan Matahari adalah ...",
+              "options": [
+                "Venus",
+                "Bumi",
+                "Merkurius",
+                "Mars"
+              ],
+              "answer": 2,
+              "explanation": "Merkurius adalah planet pertama dari Matahari."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "SMA": {
+    "X": {
+      "Biologi": [
+        {
+          "title": "Ruang Lingkup Biologi dan Metode Ilmiah",
+          "desc": "Mengenal Biologi sebagai ilmu kehidupan, tingkat organisasi kehidupan, cabang Biologi, variabel penelitian, metode ilmiah, dan keselamatan kerja di laboratorium.",
+          "topics": [
+            {
+              "title": "Apa itu Biologi?",
+              "body": "Biologi adalah ilmu yang mempelajari makhluk hidup dan proses kehidupan. Kajian Biologi mencakup tingkat molekul, sel, jaringan, organ, organisme, populasi, komunitas, ekosistem, hingga biosfer."
+            },
+            {
+              "title": "Cabang-cabang Biologi",
+              "body": "Contoh cabang Biologi: Botani mempelajari tumbuhan, Zoologi mempelajari hewan, Mikrobiologi mempelajari mikroorganisme, Genetika mempelajari pewarisan sifat, Ekologi mempelajari hubungan organisme dengan lingkungan, dan Fisiologi mempelajari fungsi tubuh."
+            },
+            {
+              "title": "Tingkat organisasi kehidupan",
+              "body": "Urutannya: molekul → organel → sel → jaringan → organ → sistem organ → organisme → populasi → komunitas → ekosistem → bioma → biosfer."
+            },
+            {
+              "title": "Metode ilmiah",
+              "body": "Langkah umum: observasi, merumuskan masalah, membuat hipotesis, merancang eksperimen, mengumpulkan data, menganalisis, menarik kesimpulan, dan mengomunikasikan hasil."
+            },
+            {
+              "title": "Variabel penelitian",
+              "body": "Variabel bebas adalah faktor yang diubah, variabel terikat adalah faktor yang diamati, sedangkan variabel kontrol dibuat tetap agar eksperimen adil."
+            },
+            {
+              "title": "Keselamatan laboratorium",
+              "body": "Gunakan alat pelindung, ikuti prosedur, pahami simbol bahaya, jangan makan atau minum, gunakan alat sesuai fungsi, dan laporkan kecelakaan kepada guru."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Variabel yang sengaja diubah dalam penelitian disebut...",
+              "options": [
+                "Variabel kontrol",
+                "Variabel terikat",
+                "Variabel bebas",
+                "Konstanta"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Variabel bebas berdasarkan materi Ruang Lingkup Biologi dan Metode Ilmiah."
+            },
+            {
+              "q": "Urutan yang benar setelah jaringan adalah...",
+              "options": [
+                "Sel",
+                "Organ",
+                "Populasi",
+                "Molekul"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Organ berdasarkan materi Ruang Lingkup Biologi dan Metode Ilmiah."
+            },
+            {
+              "q": "Cabang Biologi yang mempelajari pewarisan sifat adalah...",
+              "options": [
+                "Ekologi",
+                "Anatomi",
+                "Genetika",
+                "Botani"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Genetika berdasarkan materi Ruang Lingkup Biologi dan Metode Ilmiah."
+            }
+          ]
+        },
+        {
+          "title": "Keanekaragaman Hayati dan Klasifikasi",
+          "desc": "Memahami variasi makhluk hidup pada tingkat gen, spesies, dan ekosistem serta cara ilmuwan mengelompokkan organisme.",
+          "topics": [
+            {
+              "title": "Keanekaragaman gen",
+              "body": "Variasi gen terjadi dalam satu spesies. Contoh: beberapa varietas mangga memiliki rasa, ukuran, atau warna yang berbeda."
+            },
+            {
+              "title": "Keanekaragaman spesies",
+              "body": "Menunjukkan perbedaan antarjenis makhluk hidup, misalnya kucing, harimau, singa, dan macan tutul."
+            },
+            {
+              "title": "Keanekaragaman ekosistem",
+              "body": "Contohnya hutan hujan, savana, rawa, mangrove, sungai, dan laut yang memiliki komponen biotik dan abiotik berbeda."
+            },
+            {
+              "title": "Klasifikasi makhluk hidup",
+              "body": "Klasifikasi membantu mengenali, mempelajari, dan mengetahui kekerabatan organisme."
+            },
+            {
+              "title": "Tingkatan takson",
+              "body": "Urutan umum: Kingdom → Filum/Divisio → Kelas → Ordo → Famili → Genus → Spesies."
+            },
+            {
+              "title": "Binomial nomenclature",
+              "body": "Nama ilmiah terdiri dari dua kata: nama genus dan epitet spesifik. Contoh: Homo sapiens."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Perbedaan varietas dalam satu spesies termasuk keanekaragaman...",
+              "options": [
+                "Ekosistem",
+                "Gen",
+                "Spesies",
+                "Komunitas"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Gen berdasarkan materi Keanekaragaman Hayati dan Klasifikasi."
+            },
+            {
+              "q": "Tingkatan takson paling khusus adalah...",
+              "options": [
+                "Kingdom",
+                "Famili",
+                "Genus",
+                "Spesies"
+              ],
+              "answer": 3,
+              "explanation": "Jawaban yang tepat adalah Spesies berdasarkan materi Keanekaragaman Hayati dan Klasifikasi."
+            },
+            {
+              "q": "Nama ilmiah menggunakan sistem...",
+              "options": [
+                "Trinomial",
+                "Numerik",
+                "Binomial nomenclature",
+                "Ekologis"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Binomial nomenclature berdasarkan materi Keanekaragaman Hayati dan Klasifikasi."
+            }
+          ]
+        },
+        {
+          "title": "Virus, Bakteri, Protista, dan Fungi",
+          "desc": "Mempelajari kelompok mikroorganisme dan organisme sederhana, ciri-ciri, cara hidup, serta perannya bagi kehidupan.",
+          "topics": [
+            {
+              "title": "Virus",
+              "body": "Virus bukan sel. Virus tersusun terutama atas materi genetik DNA atau RNA dan kapsid protein. Virus memperbanyak diri hanya di dalam sel inang."
+            },
+            {
+              "title": "Siklus litik dan lisogenik",
+              "body": "Pada siklus litik, virus memperbanyak diri lalu menyebabkan sel inang pecah. Pada lisogenik, materi genetik virus dapat bergabung dengan materi genetik inang untuk sementara."
+            },
+            {
+              "title": "Bakteri",
+              "body": "Bakteri adalah organisme prokariotik uniseluler. Bentuk umum: kokus, basil, dan spiril. Reproduksi utamanya melalui pembelahan biner."
+            },
+            {
+              "title": "Protista",
+              "body": "Protista adalah organisme eukariotik sederhana. Dalam pembelajaran dasar dapat dibahas sebagai protista mirip hewan, mirip tumbuhan, dan mirip jamur."
+            },
+            {
+              "title": "Fungi",
+              "body": "Jamur bersifat eukariotik dan heterotrof. Dinding selnya umumnya mengandung kitin. Banyak jamur tersusun atas hifa yang membentuk miselium."
+            },
+            {
+              "title": "Peranan mikroorganisme",
+              "body": "Ada yang bermanfaat untuk fermentasi, penguraian, produksi pangan, dan bioteknologi; ada pula yang menyebabkan penyakit."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Bakteri termasuk organisme...",
+              "options": [
+                "Eukariotik",
+                "Prokariotik",
+                "Multiseluler",
+                "Aviral"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Prokariotik berdasarkan materi Virus, Bakteri, Protista, dan Fungi."
+            },
+            {
+              "q": "Benang penyusun tubuh jamur disebut...",
+              "options": [
+                "Kapsid",
+                "Hifa",
+                "Flagel",
+                "Pili"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Hifa berdasarkan materi Virus, Bakteri, Protista, dan Fungi."
+            },
+            {
+              "q": "Virus hanya dapat memperbanyak diri di dalam...",
+              "options": [
+                "Air",
+                "Tanah",
+                "Sel hidup",
+                "Udara"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Sel hidup berdasarkan materi Virus, Bakteri, Protista, dan Fungi."
+            }
+          ]
+        },
+        {
+          "title": "Plantae dan Animalia",
+          "desc": "Mengenal kelompok utama tumbuhan dan hewan beserta ciri serta contoh anggotanya.",
+          "topics": [
+            {
+              "title": "Ciri Plantae",
+              "body": "Tumbuhan umumnya eukariotik, multiseluler, memiliki klorofil, mampu fotosintesis, dan memiliki dinding sel selulosa."
+            },
+            {
+              "title": "Bryophyta",
+              "body": "Lumut berukuran kecil dan belum memiliki jaringan pembuluh sejati seperti tumbuhan berpembuluh."
+            },
+            {
+              "title": "Pteridophyta",
+              "body": "Tumbuhan paku memiliki akar, batang, daun, dan jaringan pembuluh tetapi berkembang biak dengan spora."
+            },
+            {
+              "title": "Spermatophyta",
+              "body": "Tumbuhan berbiji terdiri atas Gymnospermae dan Angiospermae."
+            },
+            {
+              "title": "Invertebrata",
+              "body": "Kelompok hewan tanpa tulang belakang seperti Porifera, Cnidaria, Mollusca, Arthropoda, dan Echinodermata."
+            },
+            {
+              "title": "Vertebrata",
+              "body": "Kelompok hewan bertulang belakang yang umum dipelajari: ikan, amfibi, reptil, aves, dan mamalia."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Tumbuhan paku berkembang biak dengan...",
+              "options": [
+                "Biji",
+                "Spora",
+                "Tunas selalu",
+                "Fragmentasi saja"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Spora berdasarkan materi Plantae dan Animalia."
+            },
+            {
+              "q": "Kelompok hewan berkaki berbuku-buku adalah...",
+              "options": [
+                "Mollusca",
+                "Arthropoda",
+                "Porifera",
+                "Cnidaria"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Arthropoda berdasarkan materi Plantae dan Animalia."
+            },
+            {
+              "q": "Gymnospermae memiliki biji yang...",
+              "options": [
+                "Tidak tertutup buah",
+                "Selalu tanpa embrio",
+                "Berada dalam buah",
+                "Tidak memiliki kulit biji"
+              ],
+              "answer": 0,
+              "explanation": "Jawaban yang tepat adalah Tidak tertutup buah berdasarkan materi Plantae dan Animalia."
+            }
+          ]
+        },
+        {
+          "title": "Ekologi dan Perubahan Lingkungan",
+          "desc": "Memahami interaksi makhluk hidup dengan lingkungan, aliran energi, rantai makanan, siklus materi, dan pencemaran.",
+          "topics": [
+            {
+              "title": "Ekosistem",
+              "body": "Ekosistem tersusun atas komponen biotik dan abiotik yang saling berinteraksi."
+            },
+            {
+              "title": "Tingkat ekologi",
+              "body": "Individu → populasi → komunitas → ekosistem → bioma → biosfer."
+            },
+            {
+              "title": "Rantai makanan",
+              "body": "Menunjukkan perpindahan energi melalui hubungan makan dan dimakan."
+            },
+            {
+              "title": "Jaring-jaring makanan",
+              "body": "Gabungan beberapa rantai makanan yang saling terhubung dalam suatu ekosistem."
+            },
+            {
+              "title": "Piramida ekologi",
+              "body": "Dapat menggambarkan jumlah, biomassa, atau energi pada tingkat trofik."
+            },
+            {
+              "title": "Pencemaran dan konservasi",
+              "body": "Pencemaran dapat terjadi pada air, tanah, udara, dan lingkungan. Konservasi dilakukan melalui pengelolaan limbah, daur ulang, penghijauan, dan perlindungan habitat."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Organisme yang membuat makanan sendiri disebut...",
+              "options": [
+                "Konsumen",
+                "Produsen",
+                "Detritivor",
+                "Predator"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Produsen berdasarkan materi Ekologi dan Perubahan Lingkungan."
+            },
+            {
+              "q": "Gabungan beberapa rantai makanan disebut...",
+              "options": [
+                "Piramida",
+                "Suksesi",
+                "Jaring-jaring makanan",
+                "Bioma"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Jaring-jaring makanan berdasarkan materi Ekologi dan Perubahan Lingkungan."
+            },
+            {
+              "q": "Komponen tak hidup disebut...",
+              "options": [
+                "Biotik",
+                "Abiotik",
+                "Produsen",
+                "Populasi"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Abiotik berdasarkan materi Ekologi dan Perubahan Lingkungan."
+            }
+          ]
+        }
+      ],
+      "Kimia": [
+        {
+          "title": "Hakikat Ilmu Kimia, Metode Ilmiah, dan Laboratorium",
+          "desc": "Mengenal apa yang dipelajari dalam kimia, cara kerja ilmiah, variabel percobaan, alat laboratorium, dan budaya keselamatan kerja.",
+          "topics": [
+            {
+              "title": "Hakikat ilmu kimia",
+              "body": "Kimia mempelajari komposisi, struktur, sifat, perubahan materi, dan energi yang menyertai perubahan tersebut. Materi adalah segala sesuatu yang memiliki massa dan menempati ruang."
+            },
+            {
+              "title": "Peranan kimia",
+              "body": "Kimia digunakan dalam kesehatan, pertanian, pangan, industri, energi, dan lingkungan. Banyak produk sehari-hari—obat, sabun, baterai, pupuk—dikembangkan melalui ilmu kimia."
+            },
+            {
+              "title": "Metode ilmiah",
+              "body": "Tahap umum: pengamatan → rumusan masalah → hipotesis → eksperimen → pengumpulan data → analisis → kesimpulan."
+            },
+            {
+              "title": "Variabel percobaan",
+              "body": "Variabel bebas sengaja diubah, variabel terikat diamati akibat perubahan tersebut, sedangkan variabel kontrol dijaga tetap."
+            },
+            {
+              "title": "Keselamatan laboratorium",
+              "body": "Kenali label bahan, gunakan alat pelindung sesuai kebutuhan, ikuti instruksi guru/laboran, dan tangani bahan serta alat dengan tertib."
+            },
+            {
+              "title": "Alat laboratorium",
+              "body": "Gelas beker untuk menampung/mencampur, erlenmeyer untuk reaksi dan titrasi, gelas ukur untuk volume, buret untuk titrasi, dan labu ukur untuk membuat larutan dengan volume tertentu."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Variabel yang sengaja diubah peneliti disebut…",
+              "options": [
+                "variabel bebas",
+                "variabel terikat",
+                "variabel kontrol",
+                "konstanta"
+              ],
+              "answer": 0,
+              "explanation": "Variabel bebas adalah faktor yang sengaja dimanipulasi."
+            },
+            {
+              "q": "Alat yang paling tepat untuk membuat larutan tepat 250 mL adalah…",
+              "options": [
+                "gelas beker",
+                "tabung reaksi",
+                "labu ukur",
+                "cawan porselen"
+              ],
+              "answer": 2,
+              "explanation": "Labu ukur dirancang untuk menghasilkan volume tertentu dengan lebih teliti."
+            },
+            {
+              "q": "Urutan metode ilmiah yang benar dimulai dari…",
+              "options": [
+                "kesimpulan",
+                "pengamatan",
+                "publikasi",
+                "perhitungan"
+              ],
+              "answer": 1,
+              "explanation": "Pengamatan biasanya menjadi langkah awal untuk mengenali fenomena."
+            }
+          ]
+        },
+        {
+          "title": "Struktur Atom dan Sistem Periodik Unsur",
+          "desc": "Mempelajari perkembangan model atom, proton-neutron-elektron, nomor atom, isotop, konfigurasi elektron, serta keteraturan sifat unsur dalam tabel periodik.",
+          "topics": [
+            {
+              "title": "Perkembangan model atom",
+              "body": "Dalton menggambarkan atom sebagai partikel dasar; Thomson menemukan elektron; Rutherford menunjukkan adanya inti; Bohr mengenalkan tingkat energi; model modern menggunakan orbital sebagai daerah kebolehjadian elektron."
+            },
+            {
+              "title": "Partikel penyusun atom",
+              "body": "Proton bermuatan +1 dan neutron netral berada di inti, sedangkan elektron bermuatan −1 berada di sekitar inti."
+            },
+            {
+              "title": "Nomor atom dan nomor massa",
+              "body": "Nomor atom Z = jumlah proton. Nomor massa A = proton + neutron. Pada atom netral, jumlah proton = jumlah elektron."
+            },
+            {
+              "title": "Isotop",
+              "body": "Isotop adalah atom dari unsur yang sama dengan jumlah proton sama tetapi jumlah neutron berbeda."
+            },
+            {
+              "title": "Konfigurasi elektron",
+              "body": "Konfigurasi elektron menunjukkan penyebaran elektron. Elektron pada kulit terluar disebut elektron valensi dan sangat berpengaruh terhadap sifat kimia."
+            },
+            {
+              "title": "Sistem periodik",
+              "body": "Periode adalah baris, golongan adalah kolom. Unsur dalam golongan yang sama cenderung memiliki pola elektron valensi yang serupa."
+            },
+            {
+              "title": "Sifat periodik",
+              "body": "Secara umum jari-jari atom mengecil dari kiri ke kanan dalam satu periode, sementara energi ionisasi dan keelektronegatifan cenderung meningkat."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Partikel bermuatan negatif adalah…",
+              "options": [
+                "proton",
+                "neutron",
+                "elektron",
+                "nukleon"
+              ],
+              "answer": 2,
+              "explanation": "Elektron bermuatan −1."
+            },
+            {
+              "q": "Atom netral dengan Z = 11 memiliki elektron sebanyak…",
+              "options": [
+                "10",
+                "11",
+                "12",
+                "23"
+              ],
+              "answer": 1,
+              "explanation": "Pada atom netral, jumlah elektron sama dengan jumlah proton atau nomor atom."
+            },
+            {
+              "q": "Isotop memiliki jumlah proton…",
+              "options": [
+                "berbeda",
+                "sama",
+                "selalu nol",
+                "dua kali neutron"
+              ],
+              "answer": 1,
+              "explanation": "Isotop berasal dari unsur yang sama sehingga jumlah protonnya sama."
+            }
+          ]
+        },
+        {
+          "title": "Ikatan Kimia dan Bentuk Molekul",
+          "desc": "Mengapa atom berikatan, perbedaan ikatan ion dan kovalen, struktur Lewis, polaritas, teori VSEPR, dan gaya antarmolekul.",
+          "topics": [
+            {
+              "title": "Kestabilan dan aturan oktet",
+              "body": "Banyak atom cenderung mencapai konfigurasi elektron valensi yang lebih stabil, sering kali mendekati konfigurasi gas mulia."
+            },
+            {
+              "title": "Ikatan ion",
+              "body": "Terbentuk akibat tarik-menarik elektrostatik antara kation dan anion setelah terjadi perpindahan elektron, umumnya antara logam dan nonlogam."
+            },
+            {
+              "title": "Ikatan kovalen",
+              "body": "Terbentuk ketika atom menggunakan pasangan elektron bersama. Dapat berupa ikatan tunggal, rangkap dua, atau rangkap tiga."
+            },
+            {
+              "title": "Struktur Lewis",
+              "body": "Struktur Lewis menampilkan elektron valensi dengan titik atau garis sehingga pasangan ikatan dan pasangan bebas dapat dianalisis."
+            },
+            {
+              "title": "Polaritas",
+              "body": "Perbedaan keelektronegatifan dan geometri molekul menentukan distribusi muatan. Ikatan polar belum tentu membuat seluruh molekul bersifat polar."
+            },
+            {
+              "title": "Bentuk molekul",
+              "body": "VSEPR menjelaskan bahwa pasangan elektron di sekitar atom pusat saling tolak dan mengatur diri sejauh mungkin."
+            },
+            {
+              "title": "Gaya antarmolekul",
+              "body": "Gaya London, dipol-dipol, dan ikatan hidrogen memengaruhi titik didih, kelarutan, dan sifat fisik lain."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Ikatan NaCl terutama bersifat…",
+              "options": [
+                "kovalen nonpolar",
+                "ion",
+                "logam",
+                "hidrogen"
+              ],
+              "answer": 1,
+              "explanation": "Na cenderung membentuk Na⁺ dan Cl membentuk Cl⁻."
+            },
+            {
+              "q": "Bentuk molekul CO₂ adalah…",
+              "options": [
+                "bengkok",
+                "piramida trigonal",
+                "linear",
+                "tetrahedral"
+              ],
+              "answer": 2,
+              "explanation": "CO₂ memiliki dua domain ikatan di sekitar C tanpa pasangan bebas."
+            },
+            {
+              "q": "Ikatan hidrogen kuat terjadi jika H terikat langsung pada…",
+              "options": [
+                "C, Si, Ge",
+                "N, O, F",
+                "Na, K, Li",
+                "Cl, Br, I"
+              ],
+              "answer": 1,
+              "explanation": "N, O, dan F sangat elektronegatif sehingga memungkinkan ikatan hidrogen kuat."
+            }
+          ]
+        },
+        {
+          "title": "Hukum Dasar Kimia dan Stoikiometri",
+          "desc": "Mempelajari hukum kekekalan massa, persamaan reaksi, konsep mol, massa molar, jumlah partikel, dan pereaksi pembatas.",
+          "topics": [
+            {
+              "title": "Kekekalan massa",
+              "body": "Dalam sistem tertutup, massa total sebelum dan sesudah reaksi sama. Atom tidak hilang; atom hanya tersusun ulang."
+            },
+            {
+              "title": "Persamaan reaksi",
+              "body": "Persamaan kimia harus disetarakan agar jumlah atom setiap unsur sama pada sisi reaktan dan produk."
+            },
+            {
+              "title": "Konsep mol",
+              "body": "Satu mol menyatakan 6,022 × 10²³ partikel. Mol menjadi jembatan antara skala partikel dan skala massa yang dapat diukur."
+            },
+            {
+              "title": "Massa molar",
+              "body": "Massa molar adalah massa satu mol zat dalam g/mol. Secara numerik berhubungan dengan Ar atau Mr."
+            },
+            {
+              "title": "Perhitungan stoikiometri",
+              "body": "Koefisien reaksi setara memberikan perbandingan mol antara reaktan dan produk."
+            },
+            {
+              "title": "Pereaksi pembatas",
+              "body": "Pereaksi pembatas habis terlebih dahulu dan menentukan jumlah maksimum produk yang dapat terbentuk."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Satu mol setara dengan…",
+              "options": [
+                "6,022 × 10²³ partikel",
+                "6,022 × 10²² partikel",
+                "1 gram semua zat",
+                "22,4 partikel"
+              ],
+              "answer": 0,
+              "explanation": "Bilangan Avogadro adalah 6,022 × 10²³ partikel per mol."
+            },
+            {
+              "q": "36 g H₂O (Mr 18) adalah…",
+              "options": [
+                "0,5 mol",
+                "1 mol",
+                "2 mol",
+                "18 mol"
+              ],
+              "answer": 2,
+              "explanation": "n = 36/18 = 2 mol."
+            },
+            {
+              "q": "Koefisien yang benar untuk H₂ + O₂ → H₂O adalah…",
+              "options": [
+                "1:1:1",
+                "2:1:2",
+                "1:2:1",
+                "2:2:1"
+              ],
+              "answer": 1,
+              "explanation": "2H₂ + O₂ → 2H₂O."
+            }
+          ]
+        },
+        {
+          "title": "Larutan dan Reaksi Kimia Dasar",
+          "desc": "Mengenal larutan, konsentrasi, molaritas, pengenceran, reaksi pengendapan, serta reaksi asam-basa sederhana.",
+          "topics": [
+            {
+              "title": "Larutan",
+              "body": "Larutan adalah campuran homogen yang terdiri atas pelarut dan zat terlarut."
+            },
+            {
+              "title": "Konsentrasi dan molaritas",
+              "body": "Molaritas menunjukkan jumlah mol zat terlarut per liter larutan."
+            },
+            {
+              "title": "Pengenceran",
+              "body": "Saat pelarut ditambahkan, jumlah mol zat terlarut tetap tetapi volumenya bertambah sehingga konsentrasi menurun."
+            },
+            {
+              "title": "Reaksi pengendapan",
+              "body": "Dua larutan elektrolit dapat menghasilkan zat sukar larut yang tampak sebagai endapan."
+            },
+            {
+              "title": "Reaksi asam-basa",
+              "body": "Asam dan basa dapat bereaksi membentuk garam dan air dalam reaksi netralisasi."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "0,5 mol zat dalam 1 L larutan memiliki M…",
+              "options": [
+                "0,25 M",
+                "0,5 M",
+                "1 M",
+                "2 M"
+              ],
+              "answer": 1,
+              "explanation": "M = n/V = 0,5/1."
+            },
+            {
+              "q": "Pada pengenceran, yang tetap adalah…",
+              "options": [
+                "volume",
+                "konsentrasi",
+                "mol zat terlarut",
+                "warna"
+              ],
+              "answer": 2,
+              "explanation": "Jika hanya pelarut ditambah, jumlah mol zat terlarut tidak berubah."
+            },
+            {
+              "q": "AgNO₃ + NaCl menghasilkan endapan…",
+              "options": [
+                "NaNO₃",
+                "AgCl",
+                "NaCl",
+                "AgNO₃"
+              ],
+              "answer": 1,
+              "explanation": "AgCl sukar larut sehingga membentuk endapan."
+            }
+          ]
+        }
+      ],
+      "Fisika": [
+        {
+          "title": "Hakikat Fisika, Besaran, Satuan, dan Pengukuran",
+          "desc": "Memahami fisika sebagai ilmu berbasis pengamatan dan eksperimen, mengenal besaran SI, alat ukur, angka penting, ketidakpastian, serta analisis dimensi.",
+          "topics": [
+            {
+              "title": "Hakikat Fisika",
+              "body": "Fisika mempelajari materi, energi, gerak, gaya, ruang, waktu, serta interaksinya. Pengetahuan fisika dibangun melalui pengamatan, hipotesis, eksperimen, analisis data, dan kesimpulan."
+            },
+            {
+              "title": "Besaran dan Satuan",
+              "body": "Besaran adalah sesuatu yang dapat diukur dan dinyatakan dengan angka serta satuan. Tujuh besaran pokok SI meliputi panjang, massa, waktu, suhu, kuat arus, jumlah zat, dan intensitas cahaya."
+            },
+            {
+              "title": "Pengukuran",
+              "body": "Pemilihan alat ukur menyesuaikan besaran dan tingkat ketelitian. Mistar, jangka sorong, mikrometer, neraca, stopwatch, termometer, dan amperemeter memiliki ketelitian berbeda."
+            },
+            {
+              "title": "Ketidakpastian dan Dimensi",
+              "body": "Setiap pengukuran memiliki ketidakpastian. Analisis dimensi membantu memeriksa konsistensi suatu persamaan fisika dan hubungan antarbesaran."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Besaran mana yang termasuk besaran pokok SI?",
+              "options": [
+                "Gaya",
+                "Energi",
+                "Massa",
+                "Kecepatan"
+              ],
+              "answer": 2,
+              "explanation": "Massa adalah salah satu dari tujuh besaran pokok SI."
+            },
+            {
+              "q": "Dimensi kecepatan adalah...",
+              "options": [
+                "L T⁻¹",
+                "L T⁻²",
+                "M L T⁻²",
+                "M L² T⁻²"
+              ],
+              "answer": 0,
+              "explanation": "Kecepatan = panjang/waktu, sehingga dimensinya L T⁻¹."
+            }
+          ]
+        },
+        {
+          "title": "Vektor dan Gerak",
+          "desc": "Mempelajari perbedaan skalar dan vektor, resultan vektor, jarak, perpindahan, GLB, GLBB, jatuh bebas, dan gerak parabola.",
+          "topics": [
+            {
+              "title": "Skalar dan Vektor",
+              "body": "Skalar hanya mempunyai nilai, sedangkan vektor mempunyai nilai dan arah. Contoh vektor: perpindahan, kecepatan, percepatan, dan gaya."
+            },
+            {
+              "title": "Gerak Lurus",
+              "body": "GLB memiliki kecepatan tetap. GLBB memiliki percepatan tetap sehingga kecepatan berubah secara teratur terhadap waktu."
+            },
+            {
+              "title": "Jatuh Bebas",
+              "body": "Jika hambatan udara diabaikan, benda jatuh mengalami percepatan gravitasi yang hampir konstan di dekat permukaan Bumi."
+            },
+            {
+              "title": "Gerak Parabola",
+              "body": "Gerak parabola dapat dianalisis sebagai gabungan GLB horizontal dan GLBB vertikal."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Pada GLB, besaran yang tetap adalah...",
+              "options": [
+                "Percepatan saja",
+                "Kecepatan",
+                "Jarak",
+                "Gaya"
+              ],
+              "answer": 1,
+              "explanation": "GLB didefinisikan sebagai gerak dengan kecepatan tetap."
+            },
+            {
+              "q": "Gerak parabola merupakan gabungan...",
+              "options": [
+                "GLB horizontal dan GLBB vertikal",
+                "GLBB horizontal dan GLB vertikal",
+                "Dua GLB",
+                "Dua gerak melingkar"
+              ],
+              "answer": 0,
+              "explanation": "Komponen horizontal bergerak beraturan, sedangkan vertikal dipercepat gravitasi."
+            }
+          ]
+        },
+        {
+          "title": "Hukum Newton dan Gaya",
+          "desc": "Mempelajari hubungan gaya, massa, dan percepatan melalui tiga Hukum Newton, serta gaya berat, normal, gesek, dan sentripetal.",
+          "topics": [
+            {
+              "title": "Hukum I Newton",
+              "body": "Jika resultan gaya nol, benda mempertahankan keadaan geraknya: tetap diam atau bergerak lurus beraturan."
+            },
+            {
+              "title": "Hukum II Newton",
+              "body": "Percepatan sebanding dengan resultan gaya dan berbanding terbalik dengan massa. Arah percepatan sama dengan arah resultan gaya."
+            },
+            {
+              "title": "Hukum III Newton",
+              "body": "Gaya selalu muncul berpasangan. Gaya aksi dan reaksi sama besar, berlawanan arah, dan bekerja pada benda yang berbeda."
+            },
+            {
+              "title": "Gaya pada Benda",
+              "body": "Analisis diagram gaya membantu menentukan berat, normal, gesek, tegangan tali, serta gaya lain yang bekerja."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Benda 5 kg mendapat resultan gaya 20 N. Percepatannya...",
+              "options": [
+                "2 m/s²",
+                "4 m/s²",
+                "5 m/s²",
+                "100 m/s²"
+              ],
+              "answer": 1,
+              "explanation": "a = F/m = 20/5 = 4 m/s²."
+            },
+            {
+              "q": "Pasangan aksi-reaksi bekerja pada...",
+              "options": [
+                "Benda yang sama",
+                "Benda berbeda",
+                "Hanya benda bergerak",
+                "Hanya benda diam"
+              ],
+              "answer": 1,
+              "explanation": "Menurut Hukum III Newton, kedua gaya bekerja pada dua benda berbeda."
+            }
+          ]
+        },
+        {
+          "title": "Usaha, Energi, dan Daya",
+          "desc": "Mengkaji usaha sebagai perpindahan energi, energi kinetik dan potensial, kekekalan energi mekanik, daya, dan efisiensi.",
+          "topics": [
+            {
+              "title": "Usaha",
+              "body": "Usaha terjadi ketika gaya memiliki komponen searah perpindahan. Besarnya dipengaruhi gaya, perpindahan, dan sudut antara keduanya."
+            },
+            {
+              "title": "Energi",
+              "body": "Energi kinetik berkaitan dengan gerak, sedangkan energi potensial gravitasi berkaitan dengan kedudukan terhadap acuan."
+            },
+            {
+              "title": "Kekekalan Energi",
+              "body": "Jika hanya gaya konservatif bekerja, jumlah energi kinetik dan potensial tetap."
+            },
+            {
+              "title": "Daya dan Efisiensi",
+              "body": "Daya menyatakan cepatnya usaha dilakukan. Efisiensi membandingkan energi keluaran yang berguna terhadap energi masukan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Energi kinetik benda bergantung pada...",
+              "options": [
+                "Kecepatan kuadrat",
+                "Ketinggian saja",
+                "Waktu saja",
+                "Suhu"
+              ],
+              "answer": 0,
+              "explanation": "Eₖ = ½mv², sehingga bergantung pada kuadrat kecepatan."
+            },
+            {
+              "q": "Satuan SI untuk daya adalah...",
+              "options": [
+                "Newton",
+                "Joule",
+                "Watt",
+                "Pascal"
+              ],
+              "answer": 2,
+              "explanation": "Daya diukur dalam watt (W), setara joule per sekon."
+            }
+          ]
+        },
+        {
+          "title": "Momentum, Impuls, dan Gerak Melingkar",
+          "desc": "Menghubungkan massa dan kecepatan melalui momentum, memahami impuls dan tumbukan, serta mengenal besaran gerak melingkar.",
+          "topics": [
+            {
+              "title": "Momentum dan Impuls",
+              "body": "Momentum adalah hasil kali massa dan kecepatan. Impuls sama dengan perubahan momentum."
+            },
+            {
+              "title": "Kekekalan Momentum",
+              "body": "Dalam sistem dengan resultan gaya luar nol, momentum total sebelum dan sesudah interaksi tetap."
+            },
+            {
+              "title": "Tumbukan",
+              "body": "Tumbukan dapat lenting sempurna, lenting sebagian, atau tidak lenting sama sekali, bergantung pada perubahan energi kinetiknya."
+            },
+            {
+              "title": "Gerak Melingkar",
+              "body": "Benda yang bergerak pada lintasan melingkar mengalami percepatan menuju pusat lintasan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Impuls sama dengan...",
+              "options": [
+                "Perubahan energi",
+                "Perubahan momentum",
+                "Massa dibagi waktu",
+                "Gaya dibagi massa"
+              ],
+              "answer": 1,
+              "explanation": "Teorema impuls-momentum menyatakan I = Δp."
+            },
+            {
+              "q": "Arah percepatan sentripetal adalah...",
+              "options": [
+                "Menjauhi pusat",
+                "Menuju pusat",
+                "Searah kecepatan",
+                "Selalu ke atas"
+              ],
+              "answer": 1,
+              "explanation": "Percepatan sentripetal selalu mengarah menuju pusat lintasan."
+            }
+          ]
+        }
+      ]
+    },
+    "XI": {
+      "Biologi": [
+        {
+          "title": "Sel dan Transport Membran",
+          "desc": "Mempelajari struktur sel, organel, perbedaan sel prokariotik dan eukariotik, serta mekanisme perpindahan zat melalui membran.",
+          "topics": [
+            {
+              "title": "Teori sel",
+              "body": "Makhluk hidup tersusun atas satu atau lebih sel, sel merupakan unit dasar kehidupan, dan sel berasal dari sel sebelumnya."
+            },
+            {
+              "title": "Prokariotik vs eukariotik",
+              "body": "Prokariotik tidak memiliki inti bermembran. Eukariotik memiliki inti sejati dan organel bermembran."
+            },
+            {
+              "title": "Membran sel",
+              "body": "Membran sel bersifat selektif dan mengatur pertukaran zat antara bagian dalam dan luar sel."
+            },
+            {
+              "title": "Organel",
+              "body": "Mitokondria menghasilkan ATP, ribosom mensintesis protein, Golgi memodifikasi dan mengemas molekul, dan nukleus menyimpan materi genetik."
+            },
+            {
+              "title": "Difusi dan osmosis",
+              "body": "Difusi adalah perpindahan partikel dari konsentrasi tinggi ke rendah. Osmosis adalah perpindahan air melalui membran selektif."
+            },
+            {
+              "title": "Transport aktif",
+              "body": "Transport aktif memerlukan energi untuk memindahkan zat melawan gradien konsentrasi."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Organel utama penghasil ATP adalah...",
+              "options": [
+                "Ribosom",
+                "Mitokondria",
+                "Lisosom",
+                "Golgi"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Mitokondria berdasarkan materi Sel dan Transport Membran."
+            },
+            {
+              "q": "Perpindahan air melalui membran selektif disebut...",
+              "options": [
+                "Difusi",
+                "Osmosis",
+                "Eksositosis",
+                "Fagositosis"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Osmosis berdasarkan materi Sel dan Transport Membran."
+            },
+            {
+              "q": "Sel bakteri termasuk...",
+              "options": [
+                "Eukariotik",
+                "Prokariotik",
+                "Multiseluler",
+                "Acellular"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Prokariotik berdasarkan materi Sel dan Transport Membran."
+            }
+          ]
+        },
+        {
+          "title": "Jaringan Tumbuhan dan Hewan",
+          "desc": "Mengenal jaringan penyusun tubuh tumbuhan dan hewan serta hubungan struktur dan fungsinya.",
+          "topics": [
+            {
+              "title": "Meristem",
+              "body": "Jaringan meristem terdiri atas sel yang aktif membelah. Meristem apikal berperan dalam pertumbuhan panjang."
+            },
+            {
+              "title": "Epidermis dan parenkim",
+              "body": "Epidermis melindungi permukaan. Parenkim berperan sebagai pengisi, penyimpan, dan pada bagian tertentu sebagai tempat fotosintesis."
+            },
+            {
+              "title": "Xilem dan floem",
+              "body": "Xilem mengangkut air dan mineral. Floem mengangkut hasil fotosintesis."
+            },
+            {
+              "title": "Jaringan epitel",
+              "body": "Melapisi permukaan dan rongga tubuh."
+            },
+            {
+              "title": "Jaringan ikat",
+              "body": "Berfungsi menghubungkan dan menopang jaringan. Contohnya darah, tulang, dan jaringan lemak."
+            },
+            {
+              "title": "Otot dan saraf",
+              "body": "Jaringan otot menghasilkan gerak, sedangkan jaringan saraf menerima dan menghantarkan impuls."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jaringan pengangkut air pada tumbuhan adalah...",
+              "options": [
+                "Floem",
+                "Xilem",
+                "Epidermis",
+                "Meristem"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Xilem berdasarkan materi Jaringan Tumbuhan dan Hewan."
+            },
+            {
+              "q": "Jaringan yang melapisi permukaan tubuh adalah...",
+              "options": [
+                "Ikat",
+                "Saraf",
+                "Epitel",
+                "Otot"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Epitel berdasarkan materi Jaringan Tumbuhan dan Hewan."
+            },
+            {
+              "q": "Jaringan aktif membelah pada tumbuhan adalah...",
+              "options": [
+                "Parenkim",
+                "Meristem",
+                "Sklerenkim",
+                "Floem"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Meristem berdasarkan materi Jaringan Tumbuhan dan Hewan."
+            }
+          ]
+        },
+        {
+          "title": "Sistem Gerak, Peredaran Darah, dan Pernapasan",
+          "desc": "Mempelajari bagaimana tulang, otot, jantung, pembuluh darah, dan paru-paru bekerja menjaga fungsi tubuh.",
+          "topics": [
+            {
+              "title": "Sistem gerak",
+              "body": "Gerak manusia melibatkan tulang, sendi, dan otot. Rangka menopang tubuh dan melindungi organ."
+            },
+            {
+              "title": "Jenis sendi",
+              "body": "Contoh sendi: engsel, peluru, putar, pelana, dan geser."
+            },
+            {
+              "title": "Darah",
+              "body": "Komponen darah meliputi plasma, eritrosit, leukosit, dan trombosit."
+            },
+            {
+              "title": "Jantung dan pembuluh darah",
+              "body": "Arteri membawa darah keluar dari jantung, vena membawa darah menuju jantung, dan kapiler menjadi lokasi pertukaran zat."
+            },
+            {
+              "title": "Peredaran darah",
+              "body": "Peredaran kecil: jantung → paru-paru → jantung. Peredaran besar: jantung → tubuh → jantung."
+            },
+            {
+              "title": "Pernapasan",
+              "body": "Udara melewati hidung, faring, laring, trakea, bronkus, bronkiolus, dan sampai ke alveolus."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Pembuluh yang membawa darah keluar dari jantung adalah...",
+              "options": [
+                "Vena",
+                "Kapiler",
+                "Arteri",
+                "Venula"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Arteri berdasarkan materi Sistem Gerak, Peredaran Darah, dan Pernapasan."
+            },
+            {
+              "q": "Pertukaran gas terutama terjadi di...",
+              "options": [
+                "Trakea",
+                "Bronkus",
+                "Alveolus",
+                "Laring"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Alveolus berdasarkan materi Sistem Gerak, Peredaran Darah, dan Pernapasan."
+            },
+            {
+              "q": "Sel darah pembawa oksigen adalah...",
+              "options": [
+                "Leukosit",
+                "Trombosit",
+                "Eritrosit",
+                "Plasma"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Eritrosit berdasarkan materi Sistem Gerak, Peredaran Darah, dan Pernapasan."
+            }
+          ]
+        },
+        {
+          "title": "Pencernaan, Ekskresi, dan Koordinasi",
+          "desc": "Mempelajari pengolahan makanan, pembuangan zat sisa, serta sistem saraf dan hormon.",
+          "topics": [
+            {
+              "title": "Pencernaan",
+              "body": "Saluran pencernaan: mulut → esofagus → lambung → usus halus → usus besar → rektum → anus."
+            },
+            {
+              "title": "Usus halus",
+              "body": "Merupakan lokasi utama pencernaan lanjutan dan penyerapan zat gizi."
+            },
+            {
+              "title": "Ekskresi",
+              "body": "Ekskresi adalah pembuangan zat sisa metabolisme. Organ penting: ginjal, kulit, paru-paru, dan hati."
+            },
+            {
+              "title": "Ginjal",
+              "body": "Unit fungsional ginjal adalah nefron. Pembentukan urine secara sederhana melibatkan filtrasi, reabsorpsi, dan sekresi."
+            },
+            {
+              "title": "Sistem saraf",
+              "body": "Sistem saraf pusat terdiri atas otak dan sumsum tulang belakang, sedangkan sistem perifer menghubungkannya dengan bagian tubuh."
+            },
+            {
+              "title": "Hormon",
+              "body": "Hormon adalah pembawa pesan kimia. Contohnya insulin, glukagon, tiroksin, dan adrenalin."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Unit fungsional ginjal adalah...",
+              "options": [
+                "Neuron",
+                "Nefron",
+                "Alveolus",
+                "Vili"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Nefron berdasarkan materi Pencernaan, Ekskresi, dan Koordinasi."
+            },
+            {
+              "q": "Penyerapan zat gizi terutama terjadi di...",
+              "options": [
+                "Lambung",
+                "Usus halus",
+                "Mulut",
+                "Esofagus"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Usus halus berdasarkan materi Pencernaan, Ekskresi, dan Koordinasi."
+            },
+            {
+              "q": "Pembawa pesan kimia dalam tubuh disebut...",
+              "options": [
+                "Enzim",
+                "Hormon",
+                "Antibodi",
+                "Pigmen"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Hormon berdasarkan materi Pencernaan, Ekskresi, dan Koordinasi."
+            }
+          ]
+        },
+        {
+          "title": "Reproduksi dan Pertahanan Tubuh",
+          "desc": "Mempelajari pembentukan gamet, fertilisasi, siklus reproduksi, dan mekanisme sistem imun.",
+          "topics": [
+            {
+              "title": "Gametogenesis",
+              "body": "Spermatogenesis membentuk sperma, sedangkan oogenesis membentuk dan mematangkan sel telur."
+            },
+            {
+              "title": "Fertilisasi",
+              "body": "Fertilisasi adalah peleburan sperma dan ovum sehingga terbentuk zigot."
+            },
+            {
+              "title": "Siklus reproduksi",
+              "body": "Siklus ovarium dan rahim dikendalikan oleh hormon seperti FSH, LH, estrogen, dan progesteron."
+            },
+            {
+              "title": "Pertahanan nonspesifik",
+              "body": "Meliputi kulit, selaput lendir, fagositosis, dan respons peradangan."
+            },
+            {
+              "title": "Pertahanan spesifik",
+              "body": "Melibatkan sistem imun adaptif, termasuk limfosit B dan limfosit T."
+            },
+            {
+              "title": "Vaksinasi",
+              "body": "Vaksin membantu sistem imun membentuk memori terhadap patogen tertentu."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Sel yang menghasilkan antibodi adalah...",
+              "options": [
+                "Eritrosit",
+                "Limfosit B",
+                "Trombosit",
+                "Neuron"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Limfosit B berdasarkan materi Reproduksi dan Pertahanan Tubuh."
+            },
+            {
+              "q": "Peleburan sperma dan ovum disebut...",
+              "options": [
+                "Ovulasi",
+                "Fertilisasi",
+                "Implantasi",
+                "Mitosis"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Fertilisasi berdasarkan materi Reproduksi dan Pertahanan Tubuh."
+            },
+            {
+              "q": "Vaksin membantu membentuk...",
+              "options": [
+                "Tulang",
+                "Memori imun",
+                "Hemoglobin",
+                "Glukosa"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Memori imun berdasarkan materi Reproduksi dan Pertahanan Tubuh."
+            }
+          ]
+        }
+      ],
+      "Kimia": [
+        {
+          "title": "Termokimia",
+          "desc": "Mempelajari hubungan reaksi kimia dengan panas, sistem dan lingkungan, reaksi eksoterm-endoterm, entalpi, dan Hukum Hess.",
+          "topics": [
+            {
+              "title": "Sistem dan lingkungan",
+              "body": "Sistem adalah bagian yang sedang dipelajari, sedangkan lingkungan adalah segala sesuatu di luar sistem."
+            },
+            {
+              "title": "Eksoterm",
+              "body": "Reaksi eksoterm melepaskan kalor dari sistem ke lingkungan sehingga ΔH bernilai negatif."
+            },
+            {
+              "title": "Endoterm",
+              "body": "Reaksi endoterm menyerap kalor dari lingkungan sehingga ΔH bernilai positif."
+            },
+            {
+              "title": "Entalpi",
+              "body": "Perubahan entalpi dihitung dari entalpi produk dikurangi entalpi reaktan."
+            },
+            {
+              "title": "Hukum Hess",
+              "body": "Perubahan entalpi total hanya bergantung pada keadaan awal dan akhir, sehingga beberapa tahap reaksi dapat dijumlahkan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Reaksi eksoterm memiliki ΔH…",
+              "options": [
+                "positif",
+                "nol",
+                "negatif",
+                "tak terdefinisi"
+              ],
+              "answer": 2,
+              "explanation": "Eksoterm melepaskan kalor sehingga entalpi sistem menurun."
+            },
+            {
+              "q": "Hukum Hess menegaskan ΔH bergantung pada…",
+              "options": [
+                "jalur reaksi",
+                "keadaan awal dan akhir",
+                "jumlah alat",
+                "warna zat"
+              ],
+              "answer": 1,
+              "explanation": "ΔH adalah fungsi keadaan."
+            },
+            {
+              "q": "Jika sistem menyerap kalor, reaksinya…",
+              "options": [
+                "eksoterm",
+                "endoterm",
+                "netral",
+                "redoks saja"
+              ],
+              "answer": 1,
+              "explanation": "Endoterm menyerap kalor dari lingkungan."
+            }
+          ]
+        },
+        {
+          "title": "Laju Reaksi",
+          "desc": "Mempelajari kecepatan reaksi, teori tumbukan, energi aktivasi, dan faktor-faktor yang memengaruhi laju reaksi.",
+          "topics": [
+            {
+              "title": "Laju reaksi",
+              "body": "Laju menggambarkan perubahan konsentrasi reaktan atau produk per satuan waktu."
+            },
+            {
+              "title": "Teori tumbukan",
+              "body": "Reaksi terjadi jika partikel mengalami tumbukan efektif: energi cukup dan orientasi sesuai."
+            },
+            {
+              "title": "Energi aktivasi",
+              "body": "Energi aktivasi adalah energi minimum agar tumbukan dapat menghasilkan reaksi."
+            },
+            {
+              "title": "Faktor laju",
+              "body": "Konsentrasi, suhu, luas permukaan, tekanan gas, dan katalis dapat memengaruhi frekuensi atau efektivitas tumbukan."
+            },
+            {
+              "title": "Persamaan laju",
+              "body": "Hubungan eksperimen dapat ditulis v = k[A]^m[B]^n; pangkat m dan n ditentukan dari data percobaan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Katalis mempercepat reaksi dengan…",
+              "options": [
+                "menaikkan ΔH",
+                "menurunkan energi aktivasi",
+                "menambah massa produk",
+                "mengubah kesetimbangan akhir"
+              ],
+              "answer": 1,
+              "explanation": "Katalis menyediakan jalur reaksi alternatif dengan energi aktivasi lebih rendah."
+            },
+            {
+              "q": "Serbuk bereaksi lebih cepat daripada bongkahan karena…",
+              "options": [
+                "massa selalu lebih besar",
+                "luas permukaan lebih besar",
+                "lebih dingin",
+                "tekanan nol"
+              ],
+              "answer": 1,
+              "explanation": "Luas permukaan kontak yang lebih besar meningkatkan frekuensi tumbukan."
+            },
+            {
+              "q": "Suhu naik biasanya membuat laju reaksi…",
+              "options": [
+                "menurun",
+                "tetap",
+                "meningkat",
+                "menjadi nol"
+              ],
+              "answer": 2,
+              "explanation": "Energi kinetik partikel meningkat dan tumbukan efektif lebih sering."
+            }
+          ]
+        },
+        {
+          "title": "Kesetimbangan Kimia",
+          "desc": "Mempelajari reaksi reversibel, kesetimbangan dinamis, tetapan kesetimbangan, dan prinsip Le Chatelier.",
+          "topics": [
+            {
+              "title": "Reaksi reversibel",
+              "body": "Reaksi reversibel dapat berlangsung maju dan balik."
+            },
+            {
+              "title": "Kesetimbangan dinamis",
+              "body": "Pada kesetimbangan, laju reaksi maju sama dengan laju balik; komposisi makroskopik tampak tetap."
+            },
+            {
+              "title": "Tetapan kesetimbangan",
+              "body": "Kc menyatakan perbandingan konsentrasi produk dan reaktan yang masing-masing dipangkatkan koefisien stoikiometrinya."
+            },
+            {
+              "title": "Le Chatelier",
+              "body": "Sistem kesetimbangan merespons perubahan konsentrasi, tekanan, volume, atau suhu dengan arah yang mengurangi efek gangguan."
+            },
+            {
+              "title": "Katalis",
+              "body": "Katalis mempercepat tercapainya kesetimbangan tetapi tidak mengubah nilai K atau posisi kesetimbangan akhir."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Pada kesetimbangan dinamis…",
+              "options": [
+                "reaksi berhenti",
+                "laju maju = laju balik",
+                "semua konsentrasi sama",
+                "produk selalu habis"
+              ],
+              "answer": 1,
+              "explanation": "Reaksi tetap berlangsung dua arah dengan laju sama."
+            },
+            {
+              "q": "Katalis pada kesetimbangan…",
+              "options": [
+                "mengubah K",
+                "menggeser ke kanan",
+                "mempercepat tercapainya kesetimbangan",
+                "menggeser ke kiri"
+              ],
+              "answer": 2,
+              "explanation": "Katalis mempercepat reaksi maju dan balik."
+            },
+            {
+              "q": "Menambah reaktan biasanya mendorong sistem…",
+              "options": [
+                "mengonsumsi reaktan tambahan",
+                "berhenti",
+                "menjadi padat",
+                "menghilangkan katalis"
+              ],
+              "answer": 0,
+              "explanation": "Sistem cenderung mengurangi gangguan dengan menggunakan sebagian reaktan tambahan."
+            }
+          ]
+        },
+        {
+          "title": "Asam, Basa, dan Kesetimbangan Ion",
+          "desc": "Mempelajari teori asam-basa, pH-pOH, asam/basa kuat dan lemah, buffer, hidrolisis, dan titrasi.",
+          "topics": [
+            {
+              "title": "Arrhenius",
+              "body": "Asam meningkatkan konsentrasi H⁺/H₃O⁺ dalam air, sedangkan basa meningkatkan konsentrasi OH⁻."
+            },
+            {
+              "title": "Brønsted–Lowry",
+              "body": "Asam adalah donor proton dan basa adalah akseptor proton."
+            },
+            {
+              "title": "pH dan pOH",
+              "body": "pH = −log[H⁺] dan pOH = −log[OH⁻]. Pada 25 °C, pH + pOH = 14."
+            },
+            {
+              "title": "Kuat dan lemah",
+              "body": "Kuat-lemah berhubungan dengan derajat ionisasi, bukan langsung dengan pekat-encer."
+            },
+            {
+              "title": "Buffer",
+              "body": "Larutan buffer menahan perubahan pH ketika ditambah sedikit asam atau basa."
+            },
+            {
+              "title": "Hidrolisis garam",
+              "body": "Ion tertentu dari garam bereaksi dengan air sehingga larutan dapat bersifat asam, basa, atau netral."
+            },
+            {
+              "title": "Titrasi",
+              "body": "Titrasi memakai reaksi stoikiometrik untuk menentukan konsentrasi larutan yang belum diketahui."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Menurut Brønsted–Lowry, asam adalah…",
+              "options": [
+                "akseptor elektron",
+                "donor proton",
+                "donor neutron",
+                "akseptor neutron"
+              ],
+              "answer": 1,
+              "explanation": "Asam Brønsted–Lowry mendonorkan H⁺."
+            },
+            {
+              "q": "Larutan dengan pH 3 bersifat…",
+              "options": [
+                "asam",
+                "netral",
+                "basa",
+                "selalu buffer"
+              ],
+              "answer": 0,
+              "explanation": "pH di bawah 7 bersifat asam pada kondisi umum."
+            },
+            {
+              "q": "Fungsi utama buffer adalah…",
+              "options": [
+                "mengubah semua asam menjadi gas",
+                "menahan perubahan pH",
+                "membuat pH selalu 7",
+                "menghilangkan semua ion"
+              ],
+              "answer": 1,
+              "explanation": "Buffer menjaga pH relatif stabil terhadap penambahan kecil asam/basa."
+            }
+          ]
+        },
+        {
+          "title": "Koloid",
+          "desc": "Membedakan larutan, koloid, dan suspensi serta memahami efek Tyndall, gerak Brown, adsorpsi, dan koagulasi.",
+          "topics": [
+            {
+              "title": "Jenis campuran",
+              "body": "Larutan homogen memiliki partikel sangat kecil; suspensi memiliki partikel besar yang mudah mengendap; koloid berada di antara keduanya."
+            },
+            {
+              "title": "Jenis koloid",
+              "body": "Contohnya sol, emulsi, aerosol, dan buih berdasarkan fase terdispersi dan medium pendispersinya."
+            },
+            {
+              "title": "Efek Tyndall",
+              "body": "Partikel koloid menghamburkan cahaya sehingga berkas cahaya dapat terlihat."
+            },
+            {
+              "title": "Gerak Brown",
+              "body": "Partikel koloid bergerak acak akibat tumbukan dengan partikel medium."
+            },
+            {
+              "title": "Adsorpsi dan koagulasi",
+              "body": "Permukaan koloid dapat mengadsorpsi partikel/ion; koagulasi adalah penggumpalan partikel koloid."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Kabut adalah contoh…",
+              "options": [
+                "larutan sejati",
+                "aerosol koloid",
+                "suspensi padat",
+                "unsur"
+              ],
+              "answer": 1,
+              "explanation": "Kabut adalah tetesan cair kecil yang terdispersi dalam gas."
+            },
+            {
+              "q": "Efek Tyndall adalah…",
+              "options": [
+                "pengendapan cepat",
+                "penghamburan cahaya",
+                "perubahan massa",
+                "reaksi redoks"
+              ],
+              "answer": 1,
+              "explanation": "Partikel koloid menghamburkan cahaya."
+            },
+            {
+              "q": "Koagulasi berarti…",
+              "options": [
+                "penggumpalan partikel koloid",
+                "penguapan pelarut",
+                "ionisasi air",
+                "pembentukan gas"
+              ],
+              "answer": 0,
+              "explanation": "Koagulasi adalah penggumpalan partikel koloid."
+            }
+          ]
+        }
+      ],
+      "Fisika": [
+        {
+          "title": "Fluida",
+          "desc": "Mempelajari massa jenis, tekanan, tekanan hidrostatis, Hukum Pascal, Hukum Archimedes, kontinuitas, dan Bernoulli.",
+          "topics": [
+            {
+              "title": "Fluida Statis",
+              "body": "Pada fluida diam, tekanan bertambah dengan kedalaman. Tekanan pada kedalaman tertentu bergantung pada massa jenis, gravitasi, dan kedalaman."
+            },
+            {
+              "title": "Hukum Pascal",
+              "body": "Tekanan pada fluida tertutup diteruskan sama besar ke segala arah, menjadi dasar sistem hidrolik."
+            },
+            {
+              "title": "Hukum Archimedes",
+              "body": "Benda dalam fluida mengalami gaya ke atas sebesar berat fluida yang dipindahkan."
+            },
+            {
+              "title": "Fluida Dinamis",
+              "body": "Kontinuitas menghubungkan luas penampang dengan kecepatan aliran, sedangkan Bernoulli menghubungkan tekanan, kecepatan, dan ketinggian."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Tekanan hidrostatis bertambah jika...",
+              "options": [
+                "Kedalaman berkurang",
+                "Massa jenis berkurang",
+                "Kedalaman bertambah",
+                "Gravitasi nol"
+              ],
+              "answer": 2,
+              "explanation": "Pₕ = ρgh, sehingga tekanan meningkat ketika h meningkat."
+            },
+            {
+              "q": "Hukum Pascal digunakan pada...",
+              "options": [
+                "Dongkrak hidrolik",
+                "Teleskop",
+                "Kaca pembesar",
+                "Termometer"
+              ],
+              "answer": 0,
+              "explanation": "Dongkrak hidrolik memanfaatkan penerusan tekanan pada fluida tertutup."
+            }
+          ]
+        },
+        {
+          "title": "Elastisitas dan Getaran Harmonik",
+          "desc": "Mempelajari Hukum Hooke, energi potensial elastis, susunan pegas, periode, frekuensi, dan getaran harmonik sederhana.",
+          "topics": [
+            {
+              "title": "Elastisitas",
+              "body": "Benda elastis cenderung kembali ke bentuk semula setelah gaya penyebab deformasi dihilangkan, selama batas elastis tidak terlampaui."
+            },
+            {
+              "title": "Hukum Hooke",
+              "body": "Pada daerah elastis, gaya pemulih pegas sebanding dengan simpangannya."
+            },
+            {
+              "title": "Susunan Pegas",
+              "body": "Pegas seri menghasilkan konstanta pengganti lebih kecil, sedangkan pegas paralel menghasilkan konstanta pengganti lebih besar."
+            },
+            {
+              "title": "Getaran Harmonik",
+              "body": "Getaran harmonik sederhana terjadi ketika gaya pemulih sebanding dan berlawanan arah dengan simpangan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jika konstanta pegas membesar sementara massa tetap, periode getaran...",
+              "options": [
+                "Membesar",
+                "Mengecil",
+                "Tetap",
+                "Tak terhingga"
+              ],
+              "answer": 1,
+              "explanation": "T = 2π√(m/k); k lebih besar membuat T lebih kecil."
+            },
+            {
+              "q": "Energi potensial pegas sebanding dengan...",
+              "options": [
+                "x",
+                "x²",
+                "1/x",
+                "√x"
+              ],
+              "answer": 1,
+              "explanation": "Eₚ = ½kx²."
+            }
+          ]
+        },
+        {
+          "title": "Suhu, Kalor, dan Termodinamika",
+          "desc": "Membahas suhu, pemuaian, kalor, perubahan wujud, Asas Black, perpindahan kalor, dan Hukum I Termodinamika.",
+          "topics": [
+            {
+              "title": "Suhu dan Pemuaian",
+              "body": "Suhu menggambarkan keadaan termal suatu benda. Banyak bahan memuai ketika suhu meningkat."
+            },
+            {
+              "title": "Kalor",
+              "body": "Kalor merupakan energi yang berpindah akibat perbedaan suhu. Besarnya dipengaruhi massa, kalor jenis, dan perubahan suhu."
+            },
+            {
+              "title": "Perpindahan Kalor",
+              "body": "Kalor berpindah melalui konduksi, konveksi, dan radiasi."
+            },
+            {
+              "title": "Hukum I Termodinamika",
+              "body": "Perubahan energi internal sistem sama dengan kalor yang diterima dikurangi kerja yang dilakukan sistem."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Kalor mengalir spontan dari...",
+              "options": [
+                "Suhu rendah ke tinggi",
+                "Suhu tinggi ke rendah",
+                "Massa kecil ke besar",
+                "Benda diam ke bergerak"
+              ],
+              "answer": 1,
+              "explanation": "Kalor berpindah spontan dari temperatur lebih tinggi menuju lebih rendah."
+            },
+            {
+              "q": "Rumus kalor untuk perubahan suhu tanpa perubahan wujud adalah...",
+              "options": [
+                "Q = mL",
+                "Q = mcΔT",
+                "P = W/t",
+                "V = IR"
+              ],
+              "answer": 1,
+              "explanation": "Q = mcΔT."
+            }
+          ]
+        },
+        {
+          "title": "Gelombang dan Bunyi",
+          "desc": "Mengenal gelombang transversal dan longitudinal, amplitudo, frekuensi, panjang gelombang, interferensi, resonansi, bunyi, dan Doppler.",
+          "topics": [
+            {
+              "title": "Gelombang",
+              "body": "Gelombang adalah perambatan gangguan yang membawa energi. Gelombang mekanik memerlukan medium, sedangkan gelombang elektromagnetik tidak."
+            },
+            {
+              "title": "Besaran Gelombang",
+              "body": "Amplitudo menyatakan simpangan maksimum, frekuensi menyatakan banyak getaran per sekon, dan panjang gelombang adalah jarak satu fase penuh."
+            },
+            {
+              "title": "Interferensi dan Resonansi",
+              "body": "Gelombang dapat saling memperkuat atau melemahkan. Resonansi terjadi saat sistem dipaksa pada frekuensi mendekati frekuensi alaminya."
+            },
+            {
+              "title": "Bunyi dan Doppler",
+              "body": "Bunyi merupakan gelombang mekanik. Gerak relatif antara sumber dan pengamat dapat mengubah frekuensi yang terdengar."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Hubungan cepat rambat, panjang gelombang, dan frekuensi adalah...",
+              "options": [
+                "v = λf",
+                "v = λ/f",
+                "v = f/λ",
+                "v = λ + f"
+              ],
+              "answer": 0,
+              "explanation": "Persamaan dasar gelombang adalah v = λf."
+            },
+            {
+              "q": "Bunyi di udara termasuk gelombang...",
+              "options": [
+                "Elektromagnetik",
+                "Longitudinal",
+                "Cahaya",
+                "Stasioner saja"
+              ],
+              "answer": 1,
+              "explanation": "Bunyi di udara merambat sebagai rapatan dan renggangan longitudinal."
+            }
+          ]
+        },
+        {
+          "title": "Cahaya dan Alat Optik",
+          "desc": "Mempelajari pemantulan, pembiasan, cermin, lensa, indeks bias, kekuatan lensa, mata, dan berbagai alat optik.",
+          "topics": [
+            {
+              "title": "Pemantulan",
+              "body": "Sudut datang sama dengan sudut pantul jika keduanya diukur terhadap garis normal."
+            },
+            {
+              "title": "Pembiasan",
+              "body": "Perubahan kecepatan cahaya ketika memasuki medium berbeda dapat membuat arah rambatnya berubah."
+            },
+            {
+              "title": "Lensa dan Cermin",
+              "body": "Persamaan lensa tipis dan cermin sferis menghubungkan fokus, jarak benda, dan jarak bayangan."
+            },
+            {
+              "title": "Mata dan Alat Optik",
+              "body": "Konsep lensa digunakan pada kacamata, kamera, lup, mikroskop, dan teleskop."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jika cahaya masuk dari udara ke kaca, umumnya kecepatannya...",
+              "options": [
+                "Bertambah",
+                "Berkurang",
+                "Tetap selalu",
+                "Menjadi nol"
+              ],
+              "answer": 1,
+              "explanation": "Indeks bias kaca lebih besar sehingga cepat rambat cahaya di kaca lebih kecil daripada di udara."
+            },
+            {
+              "q": "Kekuatan lensa dalam SI praktis diukur dalam...",
+              "options": [
+                "Pascal",
+                "Tesla",
+                "Dioptri",
+                "Weber"
+              ],
+              "answer": 2,
+              "explanation": "P = 1/f dengan f dalam meter, satuannya dioptri."
+            }
+          ]
+        }
+      ]
+    },
+    "XII": {
+      "Biologi": [
+        {
+          "title": "Pertumbuhan dan Perkembangan",
+          "desc": "Mempelajari pertambahan ukuran organisme, proses diferensiasi, pertumbuhan tumbuhan, dan faktor-faktor yang memengaruhinya.",
+          "topics": [
+            {
+              "title": "Pertumbuhan",
+              "body": "Pertumbuhan adalah pertambahan ukuran, massa, volume, atau jumlah sel yang dapat diukur secara kuantitatif."
+            },
+            {
+              "title": "Perkembangan",
+              "body": "Perkembangan adalah perubahan menuju tingkat struktur dan fungsi yang lebih matang."
+            },
+            {
+              "title": "Perkecambahan",
+              "body": "Biji menyerap air melalui imbibisi, metabolisme aktif kembali, lalu embrio tumbuh."
+            },
+            {
+              "title": "Pertumbuhan primer",
+              "body": "Terjadi di meristem apikal dan menyebabkan pertambahan panjang akar serta batang."
+            },
+            {
+              "title": "Pertumbuhan sekunder",
+              "body": "Terjadi karena aktivitas meristem lateral tertentu dan menambah diameter batang atau akar."
+            },
+            {
+              "title": "Faktor pertumbuhan",
+              "body": "Faktor internal: gen dan hormon. Faktor eksternal: air, cahaya, suhu, nutrisi, oksigen, dan kelembapan."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Pertambahan panjang batang terutama terjadi karena...",
+              "options": [
+                "Meristem lateral",
+                "Meristem apikal",
+                "Epidermis",
+                "Floem"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Meristem apikal berdasarkan materi Pertumbuhan dan Perkembangan."
+            },
+            {
+              "q": "Penyerapan air oleh biji disebut...",
+              "options": [
+                "Difusi",
+                "Imbibisi",
+                "Ekskresi",
+                "Transpirasi"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Imbibisi berdasarkan materi Pertumbuhan dan Perkembangan."
+            },
+            {
+              "q": "Contoh faktor internal pertumbuhan adalah...",
+              "options": [
+                "Suhu",
+                "Cahaya",
+                "Hormon",
+                "Air"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Hormon berdasarkan materi Pertumbuhan dan Perkembangan."
+            }
+          ]
+        },
+        {
+          "title": "Metabolisme",
+          "desc": "Mempelajari kerja enzim, respirasi sel, fermentasi, fotosintesis, katabolisme, dan anabolisme.",
+          "topics": [
+            {
+              "title": "Metabolisme",
+              "body": "Metabolisme adalah seluruh reaksi kimia yang berlangsung di dalam organisme."
+            },
+            {
+              "title": "Katabolisme dan anabolisme",
+              "body": "Katabolisme memecah molekul dan biasanya melepaskan energi. Anabolisme menyusun molekul dan memerlukan energi."
+            },
+            {
+              "title": "Enzim",
+              "body": "Enzim adalah katalis biologis. Aktivitasnya dipengaruhi suhu, pH, konsentrasi substrat, inhibitor, dan faktor lain."
+            },
+            {
+              "title": "Respirasi aerob",
+              "body": "Tahap utamanya: glikolisis, oksidasi piruvat, siklus Krebs, dan rantai transpor elektron."
+            },
+            {
+              "title": "Fermentasi",
+              "body": "Fermentasi berlangsung tanpa menggunakan oksigen sebagai penerima elektron akhir seperti pada respirasi aerob."
+            },
+            {
+              "title": "Fotosintesis",
+              "body": "Reaksi bergantung cahaya menghasilkan ATP dan NADPH, sedangkan siklus Calvin menggunakan keduanya untuk membantu membentuk molekul organik."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Katalis biologis disebut...",
+              "options": [
+                "Hormon",
+                "Enzim",
+                "Antibodi",
+                "Vitamin"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Enzim berdasarkan materi Metabolisme."
+            },
+            {
+              "q": "Tahap awal pemecahan glukosa adalah...",
+              "options": [
+                "Siklus Calvin",
+                "Glikolisis",
+                "Transkripsi",
+                "Replikasi"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Glikolisis berdasarkan materi Metabolisme."
+            },
+            {
+              "q": "Fotosintesis berlangsung di organel...",
+              "options": [
+                "Nukleus",
+                "Kloroplas",
+                "Lisosom",
+                "Ribosom"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Kloroplas berdasarkan materi Metabolisme."
+            }
+          ]
+        },
+        {
+          "title": "Materi Genetik dan Sintesis Protein",
+          "desc": "Mempelajari DNA, RNA, gen, kromosom, transkripsi, translasi, dan hubungan informasi genetik dengan protein.",
+          "topics": [
+            {
+              "title": "DNA",
+              "body": "DNA menyimpan informasi genetik. DNA tersusun dari nukleotida yang mengandung gula deoksiribosa, fosfat, dan basa nitrogen."
+            },
+            {
+              "title": "Pasangan basa",
+              "body": "A berpasangan dengan T, sedangkan G berpasangan dengan C."
+            },
+            {
+              "title": "RNA",
+              "body": "RNA menggunakan gula ribosa dan basa A, U, G, C. Jenis penting: mRNA, tRNA, dan rRNA."
+            },
+            {
+              "title": "Gen",
+              "body": "Gen adalah bagian DNA yang membawa informasi untuk menghasilkan produk fungsional tertentu."
+            },
+            {
+              "title": "Transkripsi",
+              "body": "Informasi DNA digunakan untuk membentuk RNA."
+            },
+            {
+              "title": "Translasi",
+              "body": "Informasi mRNA dibaca ribosom untuk menyusun urutan asam amino menjadi protein."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Basa DNA yang berpasangan dengan Adenin adalah...",
+              "options": [
+                "Urasil",
+                "Guanin",
+                "Timin",
+                "Sitosin"
+              ],
+              "answer": 2,
+              "explanation": "Jawaban yang tepat adalah Timin berdasarkan materi Materi Genetik dan Sintesis Protein."
+            },
+            {
+              "q": "RNA menggunakan basa...",
+              "options": [
+                "Timin",
+                "Urasil",
+                "Timidin",
+                "Xantin"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Urasil berdasarkan materi Materi Genetik dan Sintesis Protein."
+            },
+            {
+              "q": "Translasi berlangsung pada...",
+              "options": [
+                "Lisosom",
+                "Ribosom",
+                "Sentriol",
+                "Vakuola"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Ribosom berdasarkan materi Materi Genetik dan Sintesis Protein."
+            }
+          ]
+        },
+        {
+          "title": "Pembelahan Sel dan Pewarisan Sifat",
+          "desc": "Mempelajari siklus sel, mitosis, meiosis, hukum Mendel, genotipe, fenotipe, dan pola pewarisan.",
+          "topics": [
+            {
+              "title": "Siklus sel",
+              "body": "Siklus sel mencakup interfase dan fase pembelahan. Replikasi DNA berlangsung pada fase S."
+            },
+            {
+              "title": "Mitosis",
+              "body": "Tahap utama: profase, metafase, anafase, telofase, lalu sitokinesis."
+            },
+            {
+              "title": "Meiosis",
+              "body": "Meiosis menghasilkan sel dengan jumlah kromosom setengah dari sel awal diploid dan menciptakan variasi genetik."
+            },
+            {
+              "title": "Hukum segregasi",
+              "body": "Pasangan alel memisah ketika gamet dibentuk."
+            },
+            {
+              "title": "Genotipe dan fenotipe",
+              "body": "Genotipe adalah susunan genetik, sedangkan fenotipe adalah sifat yang dapat diamati sebagai hasil genotipe dan lingkungan."
+            },
+            {
+              "title": "Persilangan Mendel",
+              "body": "Pada Aa × Aa dengan dominansi penuh, rasio genotipe 1:2:1 dan rasio fenotipe 3:1."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Replikasi DNA berlangsung pada fase...",
+              "options": [
+                "G1",
+                "S",
+                "G2",
+                "M akhir"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah S berdasarkan materi Pembelahan Sel dan Pewarisan Sifat."
+            },
+            {
+              "q": "Pembelahan pembentuk gamet adalah...",
+              "options": [
+                "Mitosis",
+                "Meiosis",
+                "Amitosis saja",
+                "Biner"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Meiosis berdasarkan materi Pembelahan Sel dan Pewarisan Sifat."
+            },
+            {
+              "q": "Aa disebut genotipe...",
+              "options": [
+                "Homozigot dominan",
+                "Heterozigot",
+                "Homozigot resesif",
+                "Haploid"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Heterozigot berdasarkan materi Pembelahan Sel dan Pewarisan Sifat."
+            }
+          ]
+        },
+        {
+          "title": "Evolusi dan Bioteknologi",
+          "desc": "Mempelajari perubahan populasi dari generasi ke generasi, seleksi alam, bukti evolusi, spesiasi, dan penerapan bioteknologi.",
+          "topics": [
+            {
+              "title": "Evolusi",
+              "body": "Evolusi adalah perubahan karakteristik genetik populasi dari generasi ke generasi."
+            },
+            {
+              "title": "Variasi genetik",
+              "body": "Variasi muncul melalui mutasi, rekombinasi, dan reproduksi seksual."
+            },
+            {
+              "title": "Seleksi alam",
+              "body": "Individu dengan sifat yang sesuai dengan lingkungannya cenderung memiliki keberhasilan reproduksi lebih tinggi."
+            },
+            {
+              "title": "Bukti evolusi",
+              "body": "Bukti dapat berasal dari fosil, anatomi perbandingan, biogeografi, genetika, dan biologi molekuler."
+            },
+            {
+              "title": "Bioteknologi konvensional",
+              "body": "Memanfaatkan proses biologis alami seperti fermentasi pada tempe, yoghurt, roti, dan kecap."
+            },
+            {
+              "title": "Bioteknologi modern",
+              "body": "Mencakup kultur jaringan, DNA rekombinan, rekayasa genetika, diagnostik molekuler, dan produksi protein tertentu."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Perubahan genetik populasi dari generasi ke generasi disebut...",
+              "options": [
+                "Ekologi",
+                "Evolusi",
+                "Respirasi",
+                "Suksesi"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Evolusi berdasarkan materi Evolusi dan Bioteknologi."
+            },
+            {
+              "q": "Contoh bioteknologi konvensional adalah...",
+              "options": [
+                "PCR",
+                "Fermentasi tempe",
+                "Sekuensing DNA",
+                "Kloning gen"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Fermentasi tempe berdasarkan materi Evolusi dan Bioteknologi."
+            },
+            {
+              "q": "Terbentuknya spesies baru disebut...",
+              "options": [
+                "Mutasi",
+                "Spesiasi",
+                "Adaptasi",
+                "Homeostasis"
+              ],
+              "answer": 1,
+              "explanation": "Jawaban yang tepat adalah Spesiasi berdasarkan materi Evolusi dan Bioteknologi."
+            }
+          ]
+        }
+      ],
+      "Kimia": [
+        {
+          "title": "Sifat Koligatif Larutan",
+          "desc": "Mempelajari sifat larutan yang terutama bergantung pada jumlah partikel zat terlarut: tekanan uap, titik didih, titik beku, dan osmosis.",
+          "topics": [
+            {
+              "title": "Konsep koligatif",
+              "body": "Sifat koligatif terutama dipengaruhi jumlah partikel zat terlarut dalam larutan ideal encer."
+            },
+            {
+              "title": "Penurunan tekanan uap",
+              "body": "Penambahan zat terlarut nonvolatil menurunkan fraksi mol pelarut sehingga tekanan uap pelarut menurun."
+            },
+            {
+              "title": "Kenaikan titik didih",
+              "body": "Larutan membutuhkan suhu lebih tinggi agar tekanan uapnya menyamai tekanan luar."
+            },
+            {
+              "title": "Penurunan titik beku",
+              "body": "Zat terlarut mengganggu pembentukan kisi pelarut padat sehingga titik beku menurun."
+            },
+            {
+              "title": "Osmosis",
+              "body": "Osmosis adalah perpindahan pelarut melalui membran semipermeabel dari sisi yang lebih encer menuju sisi yang lebih pekat."
+            },
+            {
+              "title": "Faktor van't Hoff",
+              "body": "Elektrolit menghasilkan lebih banyak partikel efektif sehingga digunakan faktor i pada perhitungan koligatif."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Sifat koligatif terutama bergantung pada…",
+              "options": [
+                "warna zat terlarut",
+                "jumlah partikel zat terlarut",
+                "jenis wadah",
+                "nama senyawa"
+              ],
+              "answer": 1,
+              "explanation": "Yang utama adalah banyaknya partikel efektif dalam larutan."
+            },
+            {
+              "q": "Penambahan zat terlarut nonvolatil membuat titik beku…",
+              "options": [
+                "naik",
+                "tetap",
+                "turun",
+                "selalu 100°C"
+              ],
+              "answer": 2,
+              "explanation": "Terjadi penurunan titik beku."
+            },
+            {
+              "q": "Faktor van't Hoff digunakan terutama untuk…",
+              "options": [
+                "memperhitungkan jumlah partikel elektrolit",
+                "mengukur massa atom",
+                "menamai senyawa",
+                "menghitung nomor atom"
+              ],
+              "answer": 0,
+              "explanation": "i mengoreksi jumlah partikel efektif akibat disosiasi/asosiasi."
+            }
+          ]
+        },
+        {
+          "title": "Reaksi Redoks dan Elektrokimia",
+          "desc": "Mempelajari oksidasi-reduksi, bilangan oksidasi, sel volta, potensial sel, elektrolisis, dan korosi.",
+          "topics": [
+            {
+              "title": "Oksidasi dan reduksi",
+              "body": "Oksidasi adalah pelepasan elektron atau kenaikan bilangan oksidasi; reduksi adalah penerimaan elektron atau penurunan bilangan oksidasi."
+            },
+            {
+              "title": "Oksidator dan reduktor",
+              "body": "Oksidator menerima elektron dan mengalami reduksi. Reduktor memberikan elektron dan mengalami oksidasi."
+            },
+            {
+              "title": "Sel volta",
+              "body": "Sel volta mengubah energi kimia menjadi listrik melalui reaksi redoks spontan."
+            },
+            {
+              "title": "Anoda dan katoda",
+              "body": "Oksidasi selalu terjadi di anoda dan reduksi di katoda."
+            },
+            {
+              "title": "Elektrolisis",
+              "body": "Sel elektrolisis menggunakan energi listrik untuk mendorong reaksi yang tidak spontan."
+            },
+            {
+              "title": "Korosi",
+              "body": "Korosi adalah proses elektrokimia pada logam yang dapat diperlambat dengan pelapisan, galvanisasi, atau proteksi katodik."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Oksidasi terjadi di…",
+              "options": [
+                "katoda",
+                "anoda",
+                "jembatan garam",
+                "pelarut saja"
+              ],
+              "answer": 1,
+              "explanation": "Anoda adalah tempat oksidasi."
+            },
+            {
+              "q": "Pada reduksi, spesies…",
+              "options": [
+                "melepas elektron",
+                "menerima elektron",
+                "kehilangan proton selalu",
+                "menjadi gas selalu"
+              ],
+              "answer": 1,
+              "explanation": "Reduksi adalah penerimaan elektron."
+            },
+            {
+              "q": "Sel volta mengubah energi…",
+              "options": [
+                "listrik menjadi kimia",
+                "kimia menjadi listrik",
+                "panas menjadi massa",
+                "cahaya menjadi neutron"
+              ],
+              "answer": 1,
+              "explanation": "Reaksi spontan pada sel volta menghasilkan arus listrik."
+            }
+          ]
+        },
+        {
+          "title": "Kimia Unsur",
+          "desc": "Mengenal pola sifat dan kegunaan unsur golongan alkali, alkali tanah, halogen, gas mulia, dan unsur transisi.",
+          "topics": [
+            {
+              "title": "Alkali",
+              "body": "Unsur golongan 1 memiliki satu elektron valensi dan cenderung membentuk ion +1. Reaktivitas umumnya meningkat ke bawah golongan."
+            },
+            {
+              "title": "Alkali tanah",
+              "body": "Golongan 2 memiliki dua elektron valensi dan cenderung membentuk ion +2."
+            },
+            {
+              "title": "Halogen",
+              "body": "Golongan 17 memiliki tujuh elektron valensi dan cenderung menerima satu elektron menjadi ion −1."
+            },
+            {
+              "title": "Gas mulia",
+              "body": "Golongan 18 memiliki konfigurasi valensi yang sangat stabil dan umumnya relatif sukar bereaksi."
+            },
+            {
+              "title": "Unsur transisi",
+              "body": "Banyak unsur transisi memiliki bilangan oksidasi bervariasi, senyawa berwarna, dan berperan sebagai katalis atau bahan industri."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Golongan halogen adalah…",
+              "options": [
+                "1",
+                "2",
+                "17",
+                "18"
+              ],
+              "answer": 2,
+              "explanation": "Halogen berada pada golongan 17."
+            },
+            {
+              "q": "Gas mulia berada pada golongan…",
+              "options": [
+                "18",
+                "17",
+                "2",
+                "1"
+              ],
+              "answer": 0,
+              "explanation": "Gas mulia berada pada golongan 18."
+            },
+            {
+              "q": "Unsur alkali cenderung membentuk ion…",
+              "options": [
+                "+1",
+                "+2",
+                "−1",
+                "−2"
+              ],
+              "answer": 0,
+              "explanation": "Alkali memiliki satu elektron valensi yang relatif mudah dilepas."
+            }
+          ]
+        },
+        {
+          "title": "Kimia Karbon dan Hidrokarbon",
+          "desc": "Mempelajari kemampuan karbon membentuk rantai, alkana-alkena-alkuna, tata nama dasar, isomer, pembakaran, dan minyak bumi.",
+          "topics": [
+            {
+              "title": "Kekhasan karbon",
+              "body": "Karbon memiliki empat elektron valensi dan dapat membentuk ikatan kovalen kuat dengan sesama karbon maupun unsur lain."
+            },
+            {
+              "title": "Alkana",
+              "body": "Hidrokarbon jenuh dengan ikatan tunggal; untuk rantai terbuka aciklik, rumus umum CₙH₂ₙ₊₂."
+            },
+            {
+              "title": "Alkena",
+              "body": "Memiliki sedikitnya satu ikatan rangkap dua. Untuk monoalkena rantai terbuka, rumus umum CₙH₂ₙ."
+            },
+            {
+              "title": "Alkuna",
+              "body": "Memiliki sedikitnya satu ikatan rangkap tiga. Untuk monoalkuna rantai terbuka, rumus umum CₙH₂ₙ₋₂."
+            },
+            {
+              "title": "Isomer",
+              "body": "Senyawa dapat memiliki rumus molekul sama tetapi susunan atom berbeda."
+            },
+            {
+              "title": "Pembakaran",
+              "body": "Pembakaran sempurna hidrokarbon menghasilkan CO₂ dan H₂O, sedangkan pembakaran tidak sempurna dapat menghasilkan CO atau karbon."
+            },
+            {
+              "title": "Minyak bumi",
+              "body": "Minyak bumi dipisahkan menjadi fraksi melalui distilasi berdasarkan rentang titik didih."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Rumus umum alkana rantai terbuka adalah…",
+              "options": [
+                "CₙH₂ₙ",
+                "CₙH₂ₙ₊₂",
+                "CₙH₂ₙ₋₂",
+                "CₙHₙ"
+              ],
+              "answer": 1,
+              "explanation": "Alkana aciklik jenuh memiliki rumus CₙH₂ₙ₊₂."
+            },
+            {
+              "q": "C₂H₄ termasuk…",
+              "options": [
+                "alkana",
+                "alkena",
+                "alkuna",
+                "alkohol"
+              ],
+              "answer": 1,
+              "explanation": "C₂H₄ mengikuti rumus alkena CₙH₂ₙ."
+            },
+            {
+              "q": "Isomer memiliki…",
+              "options": [
+                "rumus molekul sama, struktur berbeda",
+                "jumlah C selalu berbeda",
+                "warna selalu sama",
+                "massa atom berbeda"
+              ],
+              "answer": 0,
+              "explanation": "Itulah definisi isomer struktur secara umum."
+            }
+          ]
+        },
+        {
+          "title": "Turunan Senyawa Karbon dan Makromolekul",
+          "desc": "Mengenal gugus fungsi organik dan makromolekul: alkohol, eter, aldehida, keton, asam karboksilat, ester, polimer, karbohidrat, protein, lemak, dan asam nukleat.",
+          "topics": [
+            {
+              "title": "Alkohol dan eter",
+              "body": "Alkohol memiliki gugus −OH, sedangkan eter memiliki jembatan R−O−R'."
+            },
+            {
+              "title": "Aldehida dan keton",
+              "body": "Keduanya memiliki gugus karbonil; aldehida berada di ujung rantai sebagai −CHO, sedangkan keton berada di antara dua gugus karbon."
+            },
+            {
+              "title": "Asam karboksilat dan ester",
+              "body": "Asam karboksilat memiliki −COOH. Ester umumnya dapat terbentuk dari reaksi asam karboksilat dan alkohol."
+            },
+            {
+              "title": "Polimer",
+              "body": "Polimer tersusun atas satuan berulang yang berasal dari monomer. Polimer dapat alami maupun sintetis."
+            },
+            {
+              "title": "Biomolekul",
+              "body": "Protein tersusun dari asam amino, karbohidrat mencakup mono-/di-/polisakarida, lemak banyak tersusun dari gliserol dan asam lemak, sedangkan DNA/RNA adalah asam nukleat."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Gugus fungsi alkohol adalah…",
+              "options": [
+                "−COOH",
+                "−OH",
+                "−CHO",
+                "−COO−"
+              ],
+              "answer": 1,
+              "explanation": "Alkohol memiliki gugus hidroksil −OH."
+            },
+            {
+              "q": "Monomer adalah…",
+              "options": [
+                "satuan kecil penyusun polimer",
+                "zat yang selalu ion",
+                "nama lain katalis",
+                "pelarut universal"
+              ],
+              "answer": 0,
+              "explanation": "Polimer dibangun dari banyak unit monomer."
+            },
+            {
+              "q": "Protein tersusun terutama dari monomer…",
+              "options": [
+                "asam amino",
+                "glukosa saja",
+                "asam lemak saja",
+                "nukleotida"
+              ],
+              "answer": 0,
+              "explanation": "Asam amino berikatan membentuk rantai polipeptida/protein."
+            }
+          ]
+        }
+      ],
+      "Fisika": [
+        {
+          "title": "Listrik Statis",
+          "desc": "Mempelajari muatan listrik, Hukum Coulomb, medan listrik, potensial, energi potensial, dan kapasitor.",
+          "topics": [
+            {
+              "title": "Muatan Listrik",
+              "body": "Muatan sejenis tolak-menolak dan muatan berbeda jenis tarik-menarik. Muatan bersifat terkuantisasi dalam kelipatan muatan elementer."
+            },
+            {
+              "title": "Hukum Coulomb",
+              "body": "Besarnya gaya antara dua muatan titik sebanding dengan hasil kali muatan dan berbanding terbalik dengan kuadrat jaraknya."
+            },
+            {
+              "title": "Medan dan Potensial",
+              "body": "Medan listrik adalah gaya per satuan muatan uji, sedangkan potensial adalah energi potensial per satuan muatan."
+            },
+            {
+              "title": "Kapasitor",
+              "body": "Kapasitor menyimpan muatan dan energi listrik. Kapasitansi mengukur kemampuan menyimpan muatan per beda potensial."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Dua muatan sejenis akan...",
+              "options": [
+                "Tarik-menarik",
+                "Tolak-menolak",
+                "Tidak berinteraksi",
+                "Selalu netral"
+              ],
+              "answer": 1,
+              "explanation": "Muatan sejenis saling tolak-menolak."
+            },
+            {
+              "q": "Jika jarak dua muatan menjadi dua kali, gaya Coulomb menjadi...",
+              "options": [
+                "2 kali",
+                "4 kali",
+                "1/2 kali",
+                "1/4 kali"
+              ],
+              "answer": 3,
+              "explanation": "F ∝ 1/r², jadi jika r → 2r maka F → F/4."
+            }
+          ]
+        },
+        {
+          "title": "Listrik Dinamis",
+          "desc": "Mempelajari arus, tegangan, hambatan, Hukum Ohm, rangkaian seri-paralel, Kirchhoff, daya, dan energi listrik.",
+          "topics": [
+            {
+              "title": "Arus dan Tegangan",
+              "body": "Arus adalah laju aliran muatan. Tegangan menyatakan beda potensial yang dapat mendorong muatan bergerak."
+            },
+            {
+              "title": "Hukum Ohm",
+              "body": "Pada komponen ohmik pada kondisi tertentu, tegangan berbanding lurus dengan arus melalui hambatan."
+            },
+            {
+              "title": "Rangkaian",
+              "body": "Pada seri, arus sama di setiap elemen. Pada paralel, tegangan sama pada setiap cabang."
+            },
+            {
+              "title": "Daya Listrik",
+              "body": "Daya menyatakan laju perubahan energi listrik. Daya dapat dihitung dari tegangan dan arus."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jika V = 12 V dan R = 6 Ω, arusnya...",
+              "options": [
+                "0,5 A",
+                "2 A",
+                "6 A",
+                "72 A"
+              ],
+              "answer": 1,
+              "explanation": "I = V/R = 12/6 = 2 A."
+            },
+            {
+              "q": "Pada rangkaian seri, besaran yang sama pada semua komponen adalah...",
+              "options": [
+                "Tegangan",
+                "Arus",
+                "Hambatan",
+                "Daya"
+              ],
+              "answer": 1,
+              "explanation": "Arus yang mengalir melalui setiap komponen seri sama."
+            }
+          ]
+        },
+        {
+          "title": "Medan Magnet dan Induksi Elektromagnetik",
+          "desc": "Mempelajari medan magnet akibat arus, gaya Lorentz, gaya pada kawat, fluks magnet, Faraday, Lenz, generator, motor, dan transformator.",
+          "topics": [
+            {
+              "title": "Medan Magnet",
+              "body": "Arus listrik menghasilkan medan magnet. Arah medan di sekitar kawat lurus dapat ditentukan dengan kaidah tangan kanan."
+            },
+            {
+              "title": "Gaya Lorentz",
+              "body": "Muatan bergerak di dalam medan magnet dapat mengalami gaya yang tegak lurus terhadap arah gerak dan medan."
+            },
+            {
+              "title": "Induksi Elektromagnetik",
+              "body": "Perubahan fluks magnet pada rangkaian menghasilkan gaya gerak listrik induksi."
+            },
+            {
+              "title": "Aplikasi",
+              "body": "Prinsip elektromagnetisme digunakan pada motor, generator, transformator, speaker, dan berbagai sensor."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Medan magnet di sekitar kawat lurus berarus berbentuk...",
+              "options": [
+                "Garis lurus sejajar",
+                "Lingkaran konsentris",
+                "Parabola",
+                "Tidak beraturan"
+              ],
+              "answer": 1,
+              "explanation": "Garis medan magnet mengelilingi kawat dalam lingkaran konsentris."
+            },
+            {
+              "q": "Hukum Faraday berkaitan dengan...",
+              "options": [
+                "Tekanan fluida",
+                "Induksi elektromagnetik",
+                "Pemuaian",
+                "Gerak lurus"
+              ],
+              "answer": 1,
+              "explanation": "Hukum Faraday menjelaskan GGL induksi akibat perubahan fluks magnet."
+            }
+          ]
+        },
+        {
+          "title": "Gelombang Elektromagnetik dan Arus Bolak-Balik",
+          "desc": "Mempelajari spektrum elektromagnetik, hubungan c = λf, gelombang sinus AC, nilai efektif, reaktansi, impedansi, dan resonansi RLC.",
+          "topics": [
+            {
+              "title": "Gelombang Elektromagnetik",
+              "body": "Gelombang elektromagnetik dapat merambat di ruang hampa dengan kecepatan cahaya."
+            },
+            {
+              "title": "Spektrum EM",
+              "body": "Dari frekuensi rendah ke tinggi: radio, mikro, inframerah, tampak, ultraviolet, sinar-X, dan gamma."
+            },
+            {
+              "title": "Arus Bolak-balik",
+              "body": "Pada AC sinusoidal, arah dan besar arus berubah secara periodik."
+            },
+            {
+              "title": "RLC dan Resonansi",
+              "body": "Reaktansi induktif bertambah terhadap frekuensi, reaktansi kapasitif berkurang. Resonansi terjadi saat keduanya sama."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Jika frekuensi gelombang elektromagnetik meningkat, panjang gelombang...",
+              "options": [
+                "Meningkat",
+                "Menurun",
+                "Tetap",
+                "Menjadi nol selalu"
+              ],
+              "answer": 1,
+              "explanation": "Karena c = λf dan c tetap di ruang hampa, λ berkurang ketika f meningkat."
+            },
+            {
+              "q": "Resonansi RLC seri terjadi ketika...",
+              "options": [
+                "R = 0",
+                "Xᴸ = Xᶜ",
+                "V = 0",
+                "f = 0"
+              ],
+              "answer": 1,
+              "explanation": "Pada resonansi, reaktansi induktif dan kapasitif saling meniadakan."
+            }
+          ]
+        },
+        {
+          "title": "Fisika Modern",
+          "desc": "Mengenal relativitas khusus, kuantum, foton, efek fotolistrik, dualisme gelombang-partikel, atom, radioaktivitas, fisi, fusi, dan semikonduktor.",
+          "topics": [
+            {
+              "title": "Relativitas",
+              "body": "Pada kecepatan sangat tinggi, pengukuran ruang dan waktu mengikuti relativitas khusus. Kecepatan cahaya di ruang hampa memiliki peran fundamental."
+            },
+            {
+              "title": "Kuantum",
+              "body": "Cahaya dapat berperilaku sebagai paket energi yang disebut foton, dengan energi sebanding dengan frekuensi."
+            },
+            {
+              "title": "Atom dan Inti",
+              "body": "Atom terdiri dari inti dan elektron. Inti tersusun dari proton serta neutron dan dapat mengalami proses nuklir."
+            },
+            {
+              "title": "Radioaktivitas dan Semikonduktor",
+              "body": "Peluruhan radioaktif mengikuti statistik waktu paruh. Semikonduktor menjadi dasar diode, transistor, sensor, dan chip."
+            }
+          ],
+          "seedQuiz": [
+            {
+              "q": "Energi foton dirumuskan sebagai...",
+              "options": [
+                "E = mc²",
+                "E = hf",
+                "E = mgh",
+                "E = ½mv²"
+              ],
+              "answer": 1,
+              "explanation": "Menurut Planck, energi foton E = hf."
+            },
+            {
+              "q": "Setelah dua kali waktu paruh, jumlah inti tersisa adalah...",
+              "options": [
+                "1/2 N₀",
+                "1/3 N₀",
+                "1/4 N₀",
+                "1/8 N₀"
+              ],
+              "answer": 2,
+              "explanation": "Setiap waktu paruh menyisakan setengah, sehingga dua waktu paruh menyisakan 1/4."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

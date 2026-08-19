@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Logo BISA</title>
+  <desc id="desc">Logo buku terbuka dan atom untuk Belajar Interaktif Sains Akademik.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d5dfc"/><stop offset="1" stop-color="#32b8d5"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".18"/></filter>
+  </defs>
+  <rect x="18" y="18" width="220" height="220" rx="56" fill="url(#g)" filter="url(#s)"/>
+  <path d="M62 82c25-10 46-7 66 7v92c-20-14-41-17-66-7V82Zm132 0c-25-10-46-7-66 7v92c20-14 41-17 66-7V82Z" fill="#fff" opacity=".96"/>
+  <path d="M128 90v91" stroke="#dcd9ff" stroke-width="5" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="5" opacity=".95">
+    <ellipse cx="128" cy="62" rx="43" ry="16"/>
+    <ellipse cx="128" cy="62" rx="43" ry="16" transform="rotate(60 128 62)"/>
+    <ellipse cx="128" cy="62" rx="43" ry="16" transform="rotate(120 128 62)"/>
+  </g>
+  <circle cx="128" cy="62" r="7" fill="#fff"/>
+  <text x="128" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#fff">BISA</text>
+</svg>

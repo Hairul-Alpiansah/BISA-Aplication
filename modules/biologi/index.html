@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BISA Biologi SMA Interaktif</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo">🧬</div>
+        <div>
+          <h1>BISA Biologi</h1>
+          <p>SMA X • XI • XII</p>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Cari materi..." aria-label="Cari materi">
+      </div>
+
+      <nav class="class-tabs" aria-label="Pilih kelas">
+        <button class="class-btn active" data-class="X">Kelas X</button>
+        <button class="class-btn" data-class="XI">Kelas XI</button>
+        <button class="class-btn" data-class="XII">Kelas XII</button>
+      </nav>
+
+      <div class="progress-card">
+        <div class="progress-head">
+          <span>Progres Belajar</span>
+          <strong id="progressText">0%</strong>
+        </div>
+        <div class="progress-bar"><span id="progressBar"></span></div>
+      </div>
+
+      <div id="chapterList" class="chapter-list"></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button id="menuBtn" class="icon-btn" aria-label="Buka menu">☰</button>
+        <div>
+          <div class="eyebrow" id="eyebrow">BIOLOGI SMA</div>
+          <h2 id="pageTitle">Kelas X — Ruang Lingkup Biologi</h2>
+        </div>
+        <div class="top-actions">
+          <button id="themeBtn" class="icon-btn" title="Mode gelap">🌙</button>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div>
+          <span class="badge" id="heroBadge">Kelas X • Bab 1</span>
+          <h3 id="heroTitle">Ruang Lingkup Biologi dan Metode Ilmiah</h3>
+          <p id="heroDesc"></p>
+          <div class="hero-actions">
+            <button id="markDoneBtn" class="primary-btn">✓ Tandai Selesai</button>
+            <button id="openQuizBtn" class="secondary-btn">🧠 Kuis Bab</button>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="dna-mini">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <article class="lesson-card">
+          <div class="section-heading">
+            <div>
+              <span class="badge soft">Materi Utama</span>
+              <h3>Pelajari konsep inti</h3>
+            </div>
+          </div>
+          <div id="lessonContent" class="lesson-content"></div>
+        </article>
+
+        <aside class="visual-card">
+          <div class="section-heading">
+            <div>
+              <span class="badge soft">Gambar Interaktif</span>
+              <h3 id="visualTitle">Visualisasi</h3>
+            </div>
+          </div>
+          <div id="visualArea" class="visual-area"></div>
+          <div id="visualInfo" class="visual-info">
+            Klik bagian gambar untuk melihat penjelasan.
+          </div>
+        </aside>
+      </section>
+
+      <section class="quick-tools">
+        <button id="prevBtn" class="nav-btn">← Bab Sebelumnya</button>
+        <button id="nextBtn" class="nav-btn">Bab Berikutnya →</button>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal" id="quizModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close-btn" id="closeQuizBtn" aria-label="Tutup">×</button>
+      <span class="badge">Kuis Interaktif</span>
+      <h3 id="quizTitle">Kuis Bab</h3>
+      <div id="quizBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

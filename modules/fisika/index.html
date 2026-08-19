@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aplikasi belajar Fisika SMA kelas X, XI, XII dengan materi, rumus, simulasi, dan kuis interaktif." />
+  <title>Fisika SMA Interaktif</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">Φ</div>
+        <div>
+          <h1>Fisika SMA Interaktif</h1>
+          <p>Belajar konsep, rumus, simulasi, dan kuis</p>
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <label class="search-box" aria-label="Cari materi">
+          <span>🔎</span>
+          <input id="searchInput" type="search" placeholder="Cari bab, konsep, atau rumus..." />
+        </label>
+        <button id="themeBtn" class="icon-btn" title="Ubah tema" aria-label="Ubah tema">🌙</button>
+      </div>
+    </header>
+
+    <div class="body-layout">
+      <aside class="sidebar">
+        <div class="class-switcher" role="tablist" aria-label="Pilih kelas">
+          <button class="class-btn active" data-class="X">X</button>
+          <button class="class-btn" data-class="XI">XI</button>
+          <button class="class-btn" data-class="XII">XII</button>
+        </div>
+
+        <div class="progress-card">
+          <div class="progress-head">
+            <span>Progres kelas</span>
+            <strong id="progressText">0%</strong>
+          </div>
+          <div class="progress-track">
+            <div id="progressBar" class="progress-fill"></div>
+          </div>
+          <small id="progressCount">0 dari 5 bab selesai</small>
+        </div>
+
+        <nav id="chapterList" class="chapter-list" aria-label="Daftar bab"></nav>
+
+        <div class="sidebar-footer">
+          <button id="resetProgressBtn" class="ghost-btn">↻ Reset progres</button>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <section class="hero-card">
+          <div>
+            <span id="classBadge" class="badge">Kelas X</span>
+            <h2 id="chapterTitle">Memuat materi...</h2>
+            <p id="chapterIntro"></p>
+          </div>
+          <button id="completeBtn" class="complete-btn">✓ Tandai selesai</button>
+        </section>
+
+        <section class="tabbar" role="tablist">
+          <button class="tab-btn active" data-tab="materi">📘 Materi</button>
+          <button class="tab-btn" data-tab="simulasi">🧪 Simulasi</button>
+          <button class="tab-btn" data-tab="kuis">🧠 Kuis</button>
+        </section>
+
+        <section id="materiPanel" class="panel active" data-panel="materi">
+          <div id="conceptChips" class="chip-row"></div>
+          <div id="materialContent" class="content-grid"></div>
+          <h3 class="section-title">Rumus penting</h3>
+          <div id="formulaGrid" class="formula-grid"></div>
+        </section>
+
+        <section id="simulasiPanel" class="panel" data-panel="simulasi">
+          <div class="simulation-card">
+            <div class="simulation-header">
+              <div>
+                <span class="eyebrow">Laboratorium virtual</span>
+                <h3 id="simTitle">Simulasi</h3>
+                <p id="simDescription"></p>
+              </div>
+              <button id="simResetBtn" class="ghost-btn">Reset</button>
+            </div>
+            <div class="simulation-layout">
+              <div id="simControls" class="sim-controls"></div>
+              <div class="visual-wrap">
+                <canvas id="simCanvas" width="900" height="480"></canvas>
+                <svg id="simSvg" viewBox="0 0 900 480" role="img" aria-label="Visualisasi interaktif"></svg>
+              </div>
+            </div>
+            <div id="simReadout" class="readout-grid"></div>
+          </div>
+        </section>
+
+        <section id="kuisPanel" class="panel" data-panel="kuis">
+          <div class="quiz-card">
+            <div class="quiz-top">
+              <div>
+                <span class="eyebrow">Cek pemahaman</span>
+                <h3 id="quizQuestion"></h3>
+              </div>
+              <span id="quizCounter" class="badge soft"></span>
+            </div>
+            <div id="quizOptions" class="quiz-options"></div>
+            <div id="quizFeedback" class="quiz-feedback" aria-live="polite"></div>
+            <button id="nextQuizBtn" class="primary-btn" disabled>Soal berikutnya</button>
+          </div>
+        </section>
+
+        <section id="searchResults" class="search-results hidden"></section>
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

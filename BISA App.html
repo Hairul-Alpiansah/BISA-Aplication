@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="BISA - Belajar Interaktif Sains Akademik untuk siswa SMP dan SMA." />
+  <title>BISA • Belajar Interaktif Sains Akademik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="auth-screen" id="authScreen">
+    <div class="auth-shell">
+      <section class="auth-brand-panel">
+        <div class="auth-brand-row">
+          <div class="auth-logo logo-image"><img src="assets/bisa-logo.svg" alt="Logo BISA"></div>
+          <div>
+            <strong>BISA</strong>
+            <span>Belajar • Interaktif • Sains • Akademik</span>
+          </div>
+        </div>
+
+        <div class="auth-hero-copy">
+          <span class="auth-kicker">RUANG BELAJAR PRIBADIMU</span>
+          <h1>Satu akun, satu progres belajar.</h1>
+          <p>Materi, nilai, XP, streak, subbab selesai, dan riwayat latihan disimpan terpisah untuk setiap siswa.</p>
+        </div>
+
+        <div class="auth-benefits">
+          <div><span>✓</span><p><strong>Progres individual</strong><small>Setiap akun memiliki data belajar sendiri.</small></p></div>
+          <div><span>✓</span><p><strong>SMP & SMA</strong><small>Pilih jenjang dan kelas saat mendaftar.</small></p></div>
+          <div><span>✓</span><p><strong>Belajar berkelanjutan</strong><small>Masuk kembali dan lanjutkan dari materi terakhir.</small></p></div>
+        </div>
+
+        <div class="auth-visual" aria-hidden="true">
+          <span class="auth-orb orb-a">Σ</span>
+          <span class="auth-orb orb-b">DNA</span>
+          <span class="auth-orb orb-c">H₂O</span>
+          <span class="auth-orb orb-d">F=ma</span>
+        </div>
+      </section>
+
+      <section class="auth-form-panel">
+        <div class="auth-form-wrap">
+          <div class="auth-mobile-brand">
+            <div class="auth-logo logo-image"><img src="assets/bisa-logo.svg" alt="Logo BISA"></div>
+            <strong>BISA</strong>
+          </div>
+
+          <div class="auth-tabs" role="tablist" aria-label="Pilih masuk atau daftar">
+            <button class="active" type="button" data-auth-tab="login">Masuk</button>
+            <button type="button" data-auth-tab="register">Daftar</button>
+          </div>
+
+          <div class="auth-message" id="authMessage" role="status"></div>
+
+          <form class="auth-form active" id="loginForm">
+            <div class="auth-title">
+              <span class="eyebrow">SELAMAT DATANG</span>
+              <h2>Masuk ke akun BISA</h2>
+              <p>Lanjutkan progres belajar yang tersimpan pada akunmu.</p>
+            </div>
+
+            <fieldset class="role-choice" aria-label="Masuk sebagai">
+              <legend>Masuk sebagai</legend>
+              <label><input type="radio" name="loginRole" value="student" checked><span>👨‍🎓 Siswa</span></label>
+              <label><input type="radio" name="loginRole" value="teacher"><span>👨‍🏫 Guru</span></label>
+            </fieldset>
+
+            <label class="auth-field">Email
+              <input id="loginEmail" type="email" autocomplete="email" placeholder="nama@email.com" required>
+            </label>
+            <label class="auth-field">Password
+              <div class="password-field">
+                <input id="loginPassword" type="password" autocomplete="current-password" placeholder="Masukkan password" required>
+                <button type="button" class="password-toggle" data-password-toggle="loginPassword" aria-label="Tampilkan password">Lihat</button>
+              </div>
+            </label>
+
+            <button class="primary-button auth-submit" type="submit" id="loginSubmitBtn">Masuk ke BISA</button>
+            <p class="auth-switch-text">Belum punya akun? <button type="button" data-auth-go="register">Daftar gratis</button></p>
+          </form>
+
+          <form class="auth-form" id="registerForm">
+            <div class="auth-title">
+              <span class="eyebrow">AKUN BARU</span>
+              <h2>Buat ruang belajarmu</h2>
+              <p>Progres akan dibuat khusus untuk akun ini.</p>
+            </div>
+
+            <fieldset class="role-choice" aria-label="Daftar sebagai">
+              <legend>Daftar sebagai</legend>
+              <label><input type="radio" name="registerRole" value="student" checked><span>👨‍🎓 Siswa</span></label>
+              <label><input type="radio" name="registerRole" value="teacher"><span>👨‍🏫 Guru</span></label>
+            </fieldset>
+
+            <label class="auth-field">Nama lengkap
+              <input id="registerName" type="text" autocomplete="name" placeholder="Nama siswa" minlength="2" required>
+            </label>
+            <label class="auth-field">Email
+              <input id="registerEmail" type="email" autocomplete="email" placeholder="nama@email.com" required>
+            </label>
+
+            <div class="auth-two-cols">
+              <label class="auth-field">Jenjang
+                <select id="registerLevel" required>
+                  <option value="SMP">SMP</option>
+                  <option value="SMA">SMA</option>
+                </select>
+              </label>
+              <label class="auth-field" id="registerGradeField">Kelas
+                <select id="registerGrade" required></select>
+              </label>
+            </div>
+
+            <label class="auth-field">Password
+              <div class="password-field">
+                <input id="registerPassword" type="password" autocomplete="new-password" placeholder="Minimal 8 karakter" minlength="8" required>
+                <button type="button" class="password-toggle" data-password-toggle="registerPassword" aria-label="Tampilkan password">Lihat</button>
+              </div>
+            </label>
+            <label class="auth-field">Ulangi password
+              <div class="password-field">
+                <input id="registerConfirmPassword" type="password" autocomplete="new-password" placeholder="Ulangi password" minlength="8" required>
+                <button type="button" class="password-toggle" data-password-toggle="registerConfirmPassword" aria-label="Tampilkan password">Lihat</button>
+              </div>
+            </label>
+
+            <label class="auth-consent">
+              <input id="registerConsent" type="checkbox" required>
+              <span>Saya memahami bahwa versi prototype ini menyimpan akun dan progres pada browser/perangkat ini.</span>
+            </label>
+
+            <button class="primary-button auth-submit" type="submit" id="registerSubmitBtn">Buat Akun BISA</button>
+            <p class="auth-switch-text">Sudah punya akun? <button type="button" data-auth-go="login">Masuk</button></p>
+          </form>
+
+          <p class="auth-security-note">Prototype HTML/CSS/JS: gunakan Live Server. Untuk aplikasi produksi, autentikasi perlu backend dan database.</p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <div class="app-shell auth-hidden" id="appShell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark brand-logo-wrap"><img src="assets/bisa-logo.svg" alt="Logo BISA"></div>
+        <div>
+          <strong>BISA</strong>
+          <small>Belajar • Interaktif • Sains • Akademik</small>
+        </div>
+      </div>
+
+      <nav class="nav-list" aria-label="Navigasi utama">
+        <!-- Navigasi siswa -->
+        <button class="nav-item active role-student-nav" data-view="dashboard">
+          <span class="nav-icon">⌂</span><span>Beranda</span>
+        </button>
+        <button class="nav-item role-student-nav" data-view="learn">
+          <span class="nav-icon">▣</span><span>Belajar</span>
+        </button>
+        <button class="nav-item role-student-nav" data-view="practice">
+          <span class="nav-icon">✦</span><span>Latihan</span>
+        </button>
+        <button class="nav-item role-student-nav" data-view="progress">
+          <span class="nav-icon">↗</span><span>Progres</span>
+        </button>
+        <button class="nav-item role-student-nav" data-view="attendance">
+          <span class="nav-icon">✓</span><span>Absensi</span>
+        </button>
+        <button class="nav-item role-student-nav" data-view="videos">
+          <span class="nav-icon">▤</span><span>Materi Guru</span>
+        </button>
+        <button class="nav-item role-student-nav" data-view="achievements">
+          <span class="nav-icon">◆</span><span>Pencapaian</span>
+        </button>
+
+        <!-- Navigasi guru: hanya pengawasan dan pengelolaan materi -->
+        <button class="nav-item role-teacher-nav" data-view="teacher">
+          <span class="nav-icon">⌂</span><span>Pengawasan</span>
+        </button>
+        <button class="nav-item role-teacher-nav" data-view="students">
+          <span class="nav-icon">↗</span><span>Progres Siswa</span>
+        </button>
+        <button class="nav-item role-teacher-nav" data-view="attendance">
+          <span class="nav-icon">✓</span><span>Absensi Siswa</span>
+        </button>
+        <button class="nav-item role-teacher-nav" data-view="videos">
+          <span class="nav-icon">⇧</span><span>Materi &amp; Video</span>
+        </button>
+
+        <button class="nav-item logout-nav-item" type="button" id="logoutNavBtn">
+          <span class="nav-icon">↪</span><span>Logout</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-section">
+        <p class="sidebar-label">KELAS AKTIF</p>
+        <div class="class-card">
+          <div class="class-badge" id="sidebarClassBadge">SMP</div>
+          <div>
+            <strong id="sidebarClassName">Kelas VII</strong>
+            <small id="sidebarSubjectCount">1 mata pelajaran</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <button class="ghost-button full" id="teacherPanelBtn">Dashboard Guru</button>
+        <button class="profile-mini" id="profileBtn">
+          <div class="avatar profile-logo-avatar" id="profileInitials"><img src="assets/bisa-logo.svg" alt="Logo BISA"></div>
+          <div>
+            <strong id="profileNameDisplay">Siswa BISA</strong>
+            <small id="profileEmailDisplay">Akun siswa</small>
+          </div>
+          <span>›</span>
+        </button>
+        <button class="logout-button full" id="logoutBtn">Logout</button>
+      </div>
+    </aside>
+
+    <div class="main-area">
+      <header class="topbar">
+        <button class="icon-button mobile-only" id="menuBtn" aria-label="Buka menu">☰</button>
+
+        <div class="search-box">
+          <span>⌕</span>
+          <input id="globalSearch" type="search" placeholder="Cari materi, bab, atau mata pelajaran..." autocomplete="off">
+          <kbd>Ctrl K</kbd>
+        </div>
+
+        <div class="topbar-actions">
+          <button class="icon-button" id="themeBtn" title="Ganti tema" aria-label="Ganti tema">◐</button>
+          <button class="icon-button notification-button" id="notificationBtn" aria-label="Notifikasi">
+            ♢
+            <span class="notification-dot"></span>
+          </button>
+          <div class="topbar-xp">
+            <small>XP</small>
+            <strong id="topXp">0</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="view active" id="dashboardView">
+          <div class="hero-grid">
+            <article class="hero-card">
+              <div class="hero-copy">
+                <span class="eyebrow">SELAMAT DATANG KEMBALI</span>
+                <h1>Belajar sedikit setiap hari, hasilnya besar.</h1>
+                <p id="heroSubtitle">Lanjutkan progresmu di IPA Kelas VII dan pertahankan ritme belajar hari ini.</p>
+                <div class="hero-actions">
+                  <button class="primary-button" id="continueBtn">Lanjutkan Belajar</button>
+                  <button class="secondary-button" data-view-jump="learn">Lihat Semua Materi</button>
+                </div>
+              </div>
+              <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="science-core">
+                  <span>Σ</span>
+                  <small>SCIENCE</small>
+                </div>
+                <div class="floating-chip chip-a">DNA</div>
+                <div class="floating-chip chip-b">F = ma</div>
+                <div class="floating-chip chip-c">H₂O</div>
+              </div>
+            </article>
+
+            <article class="streak-card">
+              <div class="section-heading compact">
+                <div>
+                  <span class="eyebrow">KONSISTENSI</span>
+                  <h3>Streak Belajar</h3>
+                </div>
+                <span class="streak-flame">🔥</span>
+              </div>
+              <div class="streak-number"><strong id="streakValue">7</strong><span>hari</span></div>
+              <div class="week-strip" id="weekStrip"></div>
+              <p id="dailyTargetSummary">Target hari ini: <strong>1 subbab + 10 soal</strong></p>
+            </article>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <div class="stat-icon purple">◎</div>
+              <div>
+                <small>Progres Belajar</small>
+                <strong id="overallProgressStat">35%</strong>
+              </div>
+              <span class="trend positive" id="progressTrend">mulai belajar</span>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon cyan">✓</div>
+              <div>
+                <small>Subbab Selesai</small>
+                <strong id="completedLessonsStat">12</strong>
+              </div>
+              <span class="trend" id="lessonTrend">hari ini</span>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon amber">✦</div>
+              <div>
+                <small>Rata-rata Nilai</small>
+                <strong id="averageScoreStat">82</strong>
+              </div>
+              <span class="trend positive" id="scoreTrend">Belum ada nilai</span>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon green">⌁</div>
+              <div>
+                <small>Waktu Belajar</small>
+                <strong id="studyTimeStat">4j 20m</strong>
+              </div>
+              <span class="trend" id="studyTimeTrend">belum belajar</span>
+            </article>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">LANJUTKAN</span>
+                  <h2>Belajar Terakhir</h2>
+                </div>
+                <button class="text-button" data-view-jump="learn">Semua materi →</button>
+              </div>
+              <div id="continueLearningCard"></div>
+            </section>
+
+            <section class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">REKOMENDASI</span>
+                  <h2>Untuk Kamu</h2>
+                </div>
+              </div>
+              <div class="recommendation-list" id="recommendationList"></div>
+            </section>
+          </div>
+
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">MATA PELAJARAN</span>
+                <h2>Eksplorasi Pelajaran</h2>
+              </div>
+              <div class="segmented" id="quickLevelSwitcher">
+                <button class="active" data-level="SMP">SMP</button>
+                <button data-level="SMA">SMA</button>
+              </div>
+            </div>
+            <div class="subject-grid" id="dashboardSubjects"></div>
+          </section>
+        </section>
+
+        <section class="view" id="learnView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow">KURIKULUM DIGITAL</span>
+              <h1>Belajar</h1>
+              <p>Pilih kelas dan mata pelajaran. SMP tersedia untuk kelas VII, VIII, IX; SMA tersedia untuk kelas X, XI, XII. Progres disimpan otomatis di perangkat.</p>
+            </div>
+            <div class="filter-stack">
+              <select id="levelSelect" aria-label="Pilih jenjang">
+                <option value="SMP">SMP</option>
+                <option value="SMA">SMA</option>
+              </select>
+              <select id="gradeSelect" aria-label="Pilih kelas"></select>
+            </div>
+          </div>
+
+          <div class="learning-layout">
+            <section class="panel subject-selector-panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">PILIH PELAJARAN</span>
+                  <h2>Mata Pelajaran</h2>
+                </div>
+              </div>
+              <div class="subject-pills" id="subjectPills"></div>
+            </section>
+
+            <section class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow" id="chaptersEyebrow">IPA • KELAS VII</span>
+                  <h2 id="chaptersTitle">Daftar Bab</h2>
+                </div>
+                <span class="progress-badge" id="subjectProgressBadge">0% selesai</span>
+              </div>
+              <div class="chapter-list" id="chapterList"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="practiceView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow">LATIHAN CERDAS</span>
+              <h1>Latihan & Kuis</h1>
+              <p>Latihan disesuaikan dengan kelas dan bab yang sama dengan modul materi.</p>
+            </div>
+            <div class="practice-class-control"><label>Kelas latihan<select id="practiceGradeSelect" aria-label="Pilih kelas latihan"></select></label></div>
+          </div>
+
+          <div class="practice-grid">
+            <article class="practice-card gradient-purple">
+              <span class="mini-badge">50 SOAL</span>
+              <h3>Kuis Cepat</h3>
+              <p>50 soal campuran acak dari seluruh materi pada kelas yang dipilih.</p>
+              <button class="light-button" data-quiz-mode="quick">Mulai</button>
+            </article>
+            <article class="practice-card gradient-blue">
+              <span class="mini-badge">50 SOAL</span>
+              <h3>Perkuat Konsep</h3>
+              <p>50 soal fokus pada satu bab yang kamu pilih.</p>
+              <div class="practice-inline-selects"><select id="conceptSubjectSelect" aria-label="Pilih mata pelajaran"></select><select id="conceptChapterSelect" aria-label="Pilih bab"></select></div>
+              <button class="light-button" data-quiz-mode="adaptive">Latihan 50 Soal</button>
+            </article>
+            <article class="practice-card gradient-orange">
+              <span class="mini-badge">10 HOTS</span>
+              <h3>Tantangan Analisis</h3>
+              <p>10 soal analisis sulit campuran yang diacak untuk kelas terpilih.</p>
+              <button class="light-button" data-quiz-mode="hots">Coba</button>
+            </article>
+          </div>
+
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">BANK LATIHAN</span>
+                <h2>Pilih Bab • 20 Soal per Bab</h2>
+              </div>
+              <select id="practiceSubjectFilter"></select>
+            </div>
+            <div class="topic-grid" id="practiceTopics"></div>
+          </section>
+        </section>
+
+        <section class="view" id="progressView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow">ANALITIK BELAJAR</span>
+              <h1>Progres Kamu</h1>
+              <p>Lihat perkembangan, kekuatan, dan topik yang perlu diperkuat.</p>
+            </div>
+          </div>
+
+          <div class="progress-overview">
+            <article class="panel mastery-card">
+              <div class="mastery-ring" id="masteryRing">
+                <div><strong id="masteryPercent">35%</strong><span>Mastery</span></div>
+              </div>
+              <div>
+                <span class="eyebrow">PENGUASAAN MATERI</span>
+                <h2>Terus bertumbuh.</h2>
+                <p>Skor mastery dihitung dari penyelesaian subbab dan performa latihan.</p>
+              </div>
+            </article>
+
+            <article class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">7 HARI</span>
+                  <h2>Aktivitas Belajar</h2>
+                </div>
+              </div>
+              <div class="bar-chart" id="studyChart"></div>
+            </article>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">KEKUATAN</span>
+                  <h2>Topik Dikuasai</h2>
+                </div>
+              </div>
+              <div id="strengthList" class="skill-list"></div>
+            </section>
+
+            <section class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">PERLU DITINGKATKAN</span>
+                  <h2>Rekomendasi Belajar</h2>
+                </div>
+              </div>
+              <div id="weaknessList" class="skill-list"></div>
+            </section>
+          </div>
+
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">PER MATA PELAJARAN</span>
+                <h2>Ringkasan Progres</h2>
+              </div>
+            </div>
+            <div id="subjectProgressTable" class="progress-table"></div>
+          </section>
+        </section>
+
+        <section class="view" id="achievementsView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow">GAMIFIKASI POSITIF</span>
+              <h1>Pencapaian</h1>
+              <p>Badge dibuat untuk merayakan konsistensi dan perkembangan, bukan membandingkan siswa.</p>
+            </div>
+          </div>
+
+          <div class="level-banner">
+            <div>
+              <span class="eyebrow">LEVEL SAAT INI</span>
+              <h2 id="levelTitle">Level 1 • Pemula</h2>
+              <p id="levelDesc">0 XP • 100 XP lagi menuju level berikutnya.</p>
+            </div>
+            <div class="level-orb" id="levelOrb">1</div>
+          </div>
+
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">BADGE</span>
+                <h2>Koleksi Kamu</h2>
+              </div>
+            </div>
+            <div class="badge-grid" id="badgeGrid"></div>
+          </section>
+        </section>
+
+        <section class="view" id="teacherView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow">RUANG GURU</span>
+              <h1>Dashboard Guru</h1>
+              <p>Pantau kelas, progres siswa, materi, dan aktivitas pembelajaran.</p>
+            </div>
+            <button class="secondary-button" id="backToStudentBtn">Kembali ke Siswa</button>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <div class="stat-icon purple">👥</div>
+              <div><small>Jumlah Siswa</small><strong>32</strong></div>
+              <span class="trend">VII-A</span>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon cyan">✓</div>
+              <div><small>Ketuntasan</small><strong>82%</strong></div>
+              <span class="trend positive">+4%</span>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon amber">★</div>
+              <div><small>Rata-rata Kelas</small><strong>78</strong></div>
+              <span class="trend">IPA</span>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon green">▤</div>
+              <div><small>Tugas Aktif</small><strong>3</strong></div>
+              <span class="trend">minggu ini</span>
+            </article>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">ANALISIS KELAS</span>
+                  <h2>Penguasaan per Topik</h2>
+                </div>
+              </div>
+              <div class="teacher-topic-bars">
+                <div><span>Gerak & Gaya</span><progress value="86" max="100"></progress><b>86%</b></div>
+                <div><span>Suhu & Kalor</span><progress value="74" max="100"></progress><b>74%</b></div>
+                <div><span>Ekosistem</span><progress value="91" max="100"></progress><b>91%</b></div>
+                <div><span>Klasifikasi</span><progress value="68" max="100"></progress><b>68%</b></div>
+              </div>
+            </section>
+
+            <section class="panel">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">TINDAK LANJUT</span>
+                  <h2>Insight Guru</h2>
+                </div>
+              </div>
+              <div class="insight-card">
+                <strong>12 siswa perlu penguatan</strong>
+                <p>Topik yang paling membutuhkan perhatian: <b>percepatan dan grafik gerak.</b></p>
+                <button class="secondary-button">Buat Latihan Remedial</button>
+              </div>
+            </section>
+          </div>
+
+          <section class="panel">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">TUGAS TERBARU</span>
+                <h2>Aktivitas Kelas</h2>
+              </div>
+              <button class="primary-button">+ Buat Tugas</button>
+            </div>
+            <div class="teacher-table">
+              <div class="teacher-row teacher-head">
+                <span>Tugas</span><span>Materi</span><span>Deadline</span><span>Pengumpulan</span>
+              </div>
+              <div class="teacher-row">
+                <strong>Latihan Gerak Lurus</strong><span>IPA VII</span><span>25 Agu</span><span>28/32</span>
+              </div>
+              <div class="teacher-row">
+                <strong>Kuis Suhu & Kalor</strong><span>IPA VII</span><span>27 Agu</span><span>19/32</span>
+              </div>
+              <div class="teacher-row">
+                <strong>Proyek Ekosistem</strong><span>IPA VII</span><span>30 Agu</span><span>8/32</span>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section class="view" id="attendanceView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow" id="attendanceEyebrow">ABSENSI</span>
+              <h1 id="attendanceTitle">Absensi</h1>
+              <p id="attendanceSubtitle">Catat dan pantau kehadiran harian.</p>
+            </div>
+          </div>
+          <div id="attendanceContent"></div>
+        </section>
+
+        <section class="view" id="studentsView">
+          <div class="page-header">
+            <div><span class="eyebrow">PROGRES SISWA</span><h1>Progres Setiap Siswa</h1><p>Pantau penyelesaian materi dan nilai siswa sesuai jenjang guru.</p></div>
+            <input class="teacher-search" id="studentSearchInput" type="search" placeholder="Cari siswa atau kelas...">
+          </div>
+          <section class="panel">
+            <div class="section-heading"><div><span class="eyebrow">DAFTAR SISWA</span><h2 id="studentCountTitle">0 siswa</h2></div></div>
+            <div class="teacher-student-table" id="teacherStudentTable"></div>
+          </section>
+        </section>
+
+        <section class="view" id="videosView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow">MATERI &amp; VIDEO PEMBELAJARAN</span>
+              <h1 id="videosTitle">Materi dari Guru</h1>
+              <p id="videosSubtitle">Akses bahan ajar dan video yang dibagikan sesuai kelas.</p>
+            </div>
+          </div>
+
+          <section class="panel role-teacher-only" id="materialUploadPanel">
+            <div class="section-heading"><div><span class="eyebrow">UNGGAH FILE MATERI</span><h2>Tambahkan Bahan Ajar</h2></div></div>
+            <form class="resource-upload-form" id="materialUploadForm">
+              <label>Judul<input id="materialTitleInput" type="text" required placeholder="Contoh: Ringkasan Sistem Organ"></label>
+              <label>Pelajaran<select id="materialSubjectInput" required></select></label>
+              <label>Kelas<select id="materialGradeInput" required></select></label>
+              <label>File materi<input id="materialFileInput" type="file" accept=".pdf,.doc,.docx,.ppt,.pptx,.xls,.xlsx,.txt,.zip,image/*" required></label>
+              <button class="primary-button" type="submit">Unggah Materi</button>
+            </form>
+            <p class="storage-note">File materi disimpan pada browser/perangkat ini. Gunakan backend/cloud untuk pemakaian lintas perangkat.</p>
+          </section>
+
+          <section class="panel resource-section">
+            <div class="section-heading"><div><span class="eyebrow">BAHAN AJAR</span><h2>File Materi</h2></div></div>
+            <div class="material-grid" id="materialLibrary"></div>
+          </section>
+
+          <section class="panel role-teacher-only" id="videoUploadPanel">
+            <div class="section-heading"><div><span class="eyebrow">UNGGAH VIDEO</span><h2>Tambahkan Video Pembelajaran</h2></div></div>
+            <form class="video-upload-form" id="videoUploadForm">
+              <label>Judul<input id="videoTitleInput" type="text" required placeholder="Judul video"></label>
+              <label>Pelajaran<select id="videoSubjectInput" required></select></label>
+              <label>Kelas<select id="videoGradeInput" required></select></label>
+              <label>File video<input id="videoFileInput" type="file" accept="video/*" required></label>
+              <button class="primary-button" type="submit">Unggah Video</button>
+            </form>
+            <p class="storage-note">Video disimpan lokal pada browser/perangkat ini.</p>
+          </section>
+
+          <section class="resource-section">
+            <div class="section-heading"><div><span class="eyebrow">VIDEO</span><h2>Video Pembelajaran</h2></div></div>
+            <div class="video-grid" id="videoLibrary"></div>
+          </section>
+        </section>
+
+        <section class="view" id="searchView">
+          <div class="page-header">
+            <div>
+              <span class="eyebrow">PENCARIAN</span>
+              <h1>Hasil Pencarian</h1>
+              <p id="searchSummary">Temukan materi yang kamu butuhkan.</p>
+            </div>
+          </div>
+          <div class="search-results" id="searchResults"></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="lessonModal" aria-hidden="true">
+    <div class="modal lesson-modal">
+      <button class="modal-close" data-close-modal="lessonModal" aria-label="Tutup">×</button>
+      <div id="lessonModalContent"></div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="quizModal" aria-hidden="true">
+    <div class="modal quiz-modal">
+      <button class="modal-close" data-close-modal="quizModal" aria-label="Tutup">×</button>
+      <div id="quizModalContent"></div>
+    </div>
+  </div>
+
+
+  <div class="modal-backdrop module-backdrop" id="moduleModal" aria-hidden="true">
+    <div class="modal module-modal">
+      <div class="module-modal-head">
+        <div><span class="eyebrow" id="moduleModalEyebrow">MATERI</span><h2 id="moduleModalTitle">Materi Interaktif</h2></div>
+        <button class="modal-close module-close" type="button" data-close-module aria-label="Tutup materi">×</button>
+      </div>
+      <iframe id="moduleFrame" title="Materi BISA interaktif" src="about:blank"></iframe>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="profileModal" aria-hidden="true">
+    <div class="modal small-modal">
+      <button class="modal-close" data-close-modal="profileModal" aria-label="Tutup">×</button>
+      <span class="eyebrow">PROFIL SISWA</span>
+      <h2>Pengaturan Belajar</h2>
+      <div class="profile-account-card">
+        <span>Email akun</span>
+        <strong id="profileModalEmail">-</strong>
+      </div>
+      <label>Nama
+        <input id="profileNameInput" type="text" value="Haerul">
+      </label>
+      <label>Target belajar harian
+        <select id="dailyTargetSelect">
+          <option value="10">10 menit</option>
+          <option value="20">20 menit</option>
+          <option value="30" selected>30 menit</option>
+          <option value="45">45 menit</option>
+          <option value="60">60 menit</option>
+        </select>
+      </label>
+      <button class="primary-button full" id="saveProfileBtn">Simpan Pengaturan</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="auth.js"></script>
+  <script src="smp-content.js"></script>
+  <script src="ipa7-content.js"></script>
+  <script src="deep-learning.js"></script>
+  <script src="content-library.js"></script>
+  <script src="app.js"></script>
+<script src="ipa-smp-expanded.js"></script>
+  <script src="bisa-upgrade.js"></script>
+  <script src="bisa-supervision.js"></script>
+  <script src="module-curriculum-v4.js"></script>
+  <script src="bisa-v4.js"></script>
+</body>
+</html>

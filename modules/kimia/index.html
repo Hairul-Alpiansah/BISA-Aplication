@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Aplikasi belajar Kimia SMA kelas X, XI, XII dengan materi, visual interaktif, simulasi, dan kuis." />
+  <title>KimiaLab — Kimia SMA Interaktif</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">⚗</div>
+      <div>
+        <h1>KimiaLab</h1>
+        <p>Kimia SMA Interaktif • Kelas X, XI, XII</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <button id="themeBtn" class="icon-btn" type="button" aria-label="Ganti tema">☾</button>
+      <button id="progressBtn" class="pill-btn" type="button">Progres <span id="progressLabel">0%</span></button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="class-switcher" role="tablist" aria-label="Pilih kelas">
+        <button class="class-tab active" data-class="X" type="button">X</button>
+        <button class="class-tab" data-class="XI" type="button">XI</button>
+        <button class="class-tab" data-class="XII" type="button">XII</button>
+      </div>
+
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Cari materi…" aria-label="Cari materi" />
+      </div>
+
+      <nav id="chapterNav" class="chapter-nav" aria-label="Daftar bab"></nav>
+
+      <div class="sidebar-card">
+        <strong>Tips belajar</strong>
+        <p>Buka diagram interaktif, ubah parameter simulasi, lalu kerjakan kuis untuk menyimpan progres.</p>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section class="hero">
+        <div>
+          <span class="eyebrow" id="heroClass">KELAS X</span>
+          <h2 id="heroTitle">Hakikat Ilmu Kimia, Metode Ilmiah, dan Laboratorium</h2>
+          <p id="heroDesc"></p>
+          <div class="hero-actions">
+            <button id="markCompleteBtn" class="primary-btn" type="button">Tandai selesai</button>
+            <button id="jumpQuizBtn" class="secondary-btn" type="button">Kerjakan kuis</button>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <svg viewBox="0 0 320 220">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0%" stop-color="currentColor" stop-opacity=".2"/>
+                <stop offset="100%" stop-color="currentColor" stop-opacity=".02"/>
+              </linearGradient>
+            </defs>
+            <circle cx="160" cy="110" r="84" fill="url(#g1)"/>
+            <ellipse cx="160" cy="110" rx="115" ry="42" fill="none" stroke="currentColor" stroke-width="2" opacity=".35"/>
+            <ellipse cx="160" cy="110" rx="42" ry="115" fill="none" stroke="currentColor" stroke-width="2" opacity=".35" transform="rotate(35 160 110)"/>
+            <ellipse cx="160" cy="110" rx="42" ry="115" fill="none" stroke="currentColor" stroke-width="2" opacity=".35" transform="rotate(-35 160 110)"/>
+            <circle cx="160" cy="110" r="24" fill="currentColor" opacity=".85"/>
+            <circle cx="54" cy="98" r="8" fill="currentColor"/>
+            <circle cx="246" cy="70" r="8" fill="currentColor"/>
+            <circle cx="192" cy="204" r="8" fill="currentColor"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="layout-grid">
+        <article class="card material-card">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">MATERI</span>
+              <h3>Ringkasan & Konsep Utama</h3>
+            </div>
+          </div>
+          <div id="materialContent" class="material-content"></div>
+        </article>
+
+        <aside class="card toc-card">
+          <span class="eyebrow">DALAM BAB INI</span>
+          <div id="subtopicList" class="subtopic-list"></div>
+        </aside>
+      </section>
+
+      <section class="card interactive-card" id="interactiveSection">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">VISUAL INTERAKTIF</span>
+            <h3 id="interactiveTitle">Eksplorasi Konsep</h3>
+          </div>
+          <span class="badge">Klik • Geser • Ubah</span>
+        </div>
+        <div id="interactiveArea"></div>
+      </section>
+
+      <section class="card formula-card">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">RUMUS & CONTOH</span>
+            <h3>Rumus Penting</h3>
+          </div>
+        </div>
+        <div id="formulaGrid" class="formula-grid"></div>
+      </section>
+
+      <section class="card quiz-card" id="quizSection">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">CEK PEMAHAMAN</span>
+            <h3>Kuis Bab</h3>
+          </div>
+          <span id="quizScore" class="badge">0 / 3</span>
+        </div>
+        <div id="quizArea"></div>
+      </section>
+
+      <section class="bottom-nav">
+        <button id="prevBtn" class="secondary-btn" type="button">← Bab sebelumnya</button>
+        <button id="nextBtn" class="primary-btn" type="button">Bab berikutnya →</button>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal" id="progressModal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">PROGRES BELAJAR</span>
+          <h3>Perkembanganmu</h3>
+        </div>
+        <button class="icon-btn" type="button" data-close-modal>×</button>
+      </div>
+      <div class="progress-big">
+        <div class="progress-ring" id="progressRing"><span id="progressPercent">0%</span></div>
+        <div>
+          <strong id="progressText">0 dari 15 bab selesai</strong>
+          <p>Progres tersimpan otomatis di browser ini menggunakan localStorage.</p>
+        </div>
+      </div>
+      <div id="progressList" class="progress-list"></div>
+      <button id="resetProgressBtn" class="danger-btn" type="button">Reset progres</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BISA IPA SMP - Materi interaktif kelas VII, VIII, dan IX" />
+  <title>BISA IPA SMP Interaktif</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo">B</div>
+        <div>
+          <h1>BISA IPA</h1>
+          <p>Belajar IPA SMP Interaktif</p>
+        </div>
+      </div>
+
+      <button class="nav-home active" id="homeBtn" type="button">🏠 Beranda</button>
+
+      <div class="grade-tabs" role="tablist" aria-label="Pilih kelas">
+        <button class="grade-tab active" data-grade="VII" type="button">VII</button>
+        <button class="grade-tab" data-grade="VIII" type="button">VIII</button>
+        <button class="grade-tab" data-grade="IX" type="button">IX</button>
+      </div>
+
+      <label class="search-box" for="searchInput">
+        <span>🔎</span>
+        <input id="searchInput" type="search" placeholder="Cari materi..." autocomplete="off" />
+      </label>
+
+      <nav id="chapterNav" class="chapter-nav" aria-label="Daftar bab"></nav>
+
+      <div class="sidebar-footer">
+        <div class="progress-mini">
+          <div class="progress-mini-row">
+            <span>Progres belajar</span>
+            <strong id="miniProgressText">0%</strong>
+          </div>
+          <div class="progress-track"><div id="miniProgressBar" class="progress-fill"></div></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button id="menuBtn" class="menu-btn" type="button" aria-label="Buka menu">☰</button>
+        <div>
+          <p class="eyebrow">Platform Belajar IPA SMP</p>
+          <h2 id="pageTitle">Beranda</h2>
+        </div>
+        <button id="resetProgressBtn" class="ghost-btn" type="button">Reset progres</button>
+      </header>
+
+      <section id="content" class="content" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
